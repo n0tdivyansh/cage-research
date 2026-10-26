@@ -11,8 +11,6 @@
 % Every number in this file comes from results/01-cage/**/summary.md (rule E5).
 % All of them are scenario values: synthetic workloads + analytic cost model (rule E1).
 
-\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
-
 \begin{document}
 
 \title{CAGE: When Does Communication-Graph\\Structure Pay Off for Rank Placement?}
@@ -258,7 +256,7 @@ structure. The 2D stencil, the planted partition and Megatron are significant ($
 $10.2$). MoE without affinity is not ($z=-0.1$).
 
 \begin{table}[t]
-\caption{Observed vs.\ null-model modularity, 20 null samples (E2).}\label{tab:null}
+\caption{Observed vs.\ null-model modularity, 20 null samples (E2). Scenario values.}\label{tab:null}
 \centering\footnotesize
 \setlength{\tabcolsep}{3pt}
 \begin{tabular}{@{}lrrrrcc@{}}
@@ -298,36 +296,37 @@ Scenario values.}\label{fig:e1}
 \subsection{Workload characterisation (E3)}
 Table~\ref{tab:e3} characterises each workload. The original hypothesis that the busiest 20\% of
 ranks carry 70--80\% of traffic fails everywhere: the largest top-20\% share is 0.42 (MoE with Zipf
-1.5), and collective-based data parallelism is balanced by design (Gini 0.00). Skewed MoE routing
+1.5), and collective-based data parallelism is balanced by design (Gini 0.00 for the flat ring and
+rail allreduce, 0.10 for leader-based allreduce, whose leaders carry the inter-host ring). Skewed MoE routing
 creates hotspots (6 and 11 ranks above robust $z=3.5$ for Zipf 1.0 and 1.5) but no community
 structure; its $Q$ is \emph{below} the null mean at Zipf 1.5 ($z=-5.0$) because a few hub experts
 connect everything. Megatron and the stencils are significant. Rail-optimised allreduce is
 significant ($z=5.7$) while leader-based allreduce is not ($z=0.0$), yet in both cases the
-structure is defined by the algorithm's own host layout: significance is necessary for a placement
-to help, not sufficient.
+structure is defined by the algorithm's own host layout: significance alone does not mean a placement
+will help, and Section~\ref{sec:e4} shows that, as we test it, it is not required either.
 
 \begin{table}[t]
-\caption{Load concentration and structure, 64 ranks, 20 null samples (E3).}\label{tab:e3}
+\caption{Load concentration and structure, 64 ranks, 20 null samples (E3). Scenario values.}\label{tab:e3}
 \centering\footnotesize
-\begin{tabular}{@{}lrrrrr@{}}
+\begin{tabular}{@{}lrrrrrr@{}}
 \toprule
-Workload & Gini & top-20\% & hotspots & $Q$ & $z$ \\
+Workload & Gini & top-20\% & hotspots & $Q$ & $z$ & $p$ \\
 \midrule
-DP ring              & 0.00 & 0.20 & 0  & 0.74 & $-1.1$ \\
-DP hier.\ leader     & 0.10 & 0.25 & 0  & 0.75 & 0.0 \\
-DP hier.\ rail       & 0.00 & 0.20 & 0  & 0.76 & 5.7 \\
-Megatron 8$\cdot$4$\cdot$2 & 0.00 & 0.20 & 0 & 0.82 & 10.2 \\
-MoE Zipf 0           & 0.01 & 0.21 & 0  & 0.23 & 2.2 \\
-MoE Zipf 1.0         & 0.19 & 0.35 & 6  & 0.22 & $-0.1$ \\
-MoE Zipf 1.5         & 0.27 & 0.42 & 11 & 0.22 & $-5.0$ \\
-MoE Zipf 1, $a{=}0.6$ & 0.15 & 0.32 & 6 & 0.28 & 2.5 \\
-Stencil 2D 8$\times$8 & 0.09 & 0.23 & 0 & 0.59 & 6.2 \\
-Stencil 3D 4$\times$4$\times$4 & 0.10 & 0.25 & 0 & 0.54 & 6.8 \\
+DP ring              & 0.00 & 0.20 & 0  & 0.74 & $-1.1$ & 1.000 \\
+DP hier.\ leader     & 0.10 & 0.25 & 0  & 0.75 & 0.0 & 0.381 \\
+DP hier.\ rail       & 0.00 & 0.20 & 0  & 0.76 & 5.7 & 0.048 \\
+Megatron 8$\cdot$4$\cdot$2 & 0.00 & 0.20 & 0 & 0.82 & 10.2 & 0.048 \\
+MoE Zipf 0           & 0.01 & 0.21 & 0  & 0.23 & 2.2 & 0.048 \\
+MoE Zipf 1.0         & 0.19 & 0.35 & 6  & 0.22 & $-0.1$ & 0.571 \\
+MoE Zipf 1.5         & 0.27 & 0.42 & 11 & 0.22 & $-5.0$ & 1.000 \\
+MoE Zipf 1, $a{=}0.6$ & 0.15 & 0.32 & 6 & 0.28 & 2.5 & 0.048 \\
+Stencil 2D 8$\times$8 & 0.09 & 0.23 & 0 & 0.59 & 6.2 & 0.048 \\
+Stencil 3D 4$\times$4$\times$4 & 0.10 & 0.25 & 0 & 0.54 & 6.8 & 0.048 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-\subsection{When placement beats block (E4)}
+\subsection{When placement beats block (E4)}\label{sec:e4}
 Table~\ref{tab:e4} is the headline. In the NCCL regime CAGE gains nothing for DP ring, hierarchical
 DP and Megatron in its default order, and moves no ranks: block placement is already optimal, and
 CAGE says so. Megatron is strongly structured ($z=10.2$) but its rank order already matches that
@@ -335,7 +334,8 @@ structure. Gains appear only where rank order disagrees with structure: scramble
 ($-92.7\%$ cross-host bytes, $-78.7\%$ modelled time, 48 ranks moved), the 2D and 3D stencils
 ($-42.9\%$ and $-25.0\%$ bytes, because Cartesian row-major order cuts the grid into thin slabs), and
 MoE with routing affinity 0.6 ($-56.3\%$ bytes). Round-robin is catastrophic wherever rank order is
-right ($+700\%$ bytes for hierarchical DP, $+1657\%$ for Megatron). It ties CAGE on affinity MoE
+right ($+700\%$ bytes for hierarchical DP, $+1657\%$ for Megatron); the flat DP ring is the
+exception only because NCCL re-rings it to the same cost. It ties CAGE on affinity MoE
 only because the interleaved data groups ($r \bmod 8$) coincide exactly with round-robin hosts.
 
 For MoE without affinity, cross-host bytes do not change ($-0.1\%$) while modelled time falls by
@@ -375,9 +375,17 @@ for a scattered ring, which NCCL would in practice rebuild.
 \textbf{Affinity sweep.} Fig.~\ref{fig:e4sweep} varies affinity. With interleaved groups the gain
 grows almost linearly: $-18.8\%$, $-37.5\%$, $-56.3\%$, $-75.1\%$ cross-host bytes at
 $a=0.2,0.4,0.6,0.8$. With groups aligned to hosts it is zero at every affinity, because block
-placement is already correct. The decision rule that follows is simple: \emph{placement pays when
-the graph has significant structure and that structure disagrees with the launcher's rank order}.
-Both conditions are measurable from a trace before anything is moved.
+placement is already correct. The gain grows in proportion to $a$, so in part it reads back the
+generator's parameter. The rule that follows is: \emph{placement pays when the traffic has structure
+that disagrees with the launcher's rank order}. Our significance test does not detect that structure
+reliably. MoE with $a=0.6$ is not significant on the full graph (Table~\ref{tab:e3}): no null graph
+reaches its $Q$ ($p=0.048$, the minimum attainable), but $z=2.5$ falls short of 3. Yet it gains
+$-56.3\%$. We suspect the dense allreduce hides the expert structure: once re-ringed it costs the
+same for every exact-capacity placement, yet it dominates the graph that Louvain sees. Testing
+significance on rank-pinned traffic alone is future work. What decides is the direct comparison:
+the recommended partition against block placement under the NCCL model, which is computable from a
+trace before anything is moved. The null-model test guards against reporting structure that is not
+there; it is not a gate that placement must pass.
 
 \begin{figure}[t]
 \centering
@@ -398,7 +406,7 @@ bottleneck in every case. Real extraction therefore has to record per-event dura
 Chakra and the PMPI library do and NCCL INFO logs do not.
 
 \begin{table}[t]
-\caption{Anomaly detection, hit rate at rank 1 (E5).}\label{tab:e5}
+\caption{Anomaly detection, hit rate at rank 1 (E5). Scenario values.}\label{tab:e5}
 \centering\footnotesize
 \begin{tabular}{@{}lrrr@{}}
 \toprule
@@ -435,8 +443,16 @@ vertices or updating gains incrementally is the obvious fix. Timings are machine
 two most common training layouts, data parallelism and Megatron in launcher order, block placement
 is already optimal. Its value lies in detecting mismatches: scrambled or heterogeneous launches,
 MPI Cartesian codes on GPU hosts, and MoE models whose routing has data-group locality. Each of
-these is detectable from a trace by the significance test plus a comparison of communities with
-rank order.
+these is detectable from a trace by comparing the recommended partition with rank order under the
+NCCL model; the significance test prevents false claims of structure but, as the MoE case shows, can
+miss real structure.
+
+\textbf{When a trace is not needed.} If the parallelism layout is known (TP, PP, DP and EP group
+sizes), a scheduler can place groups by rule, for example each TP group inside one host, without
+any trace, and NCCL already orders its rings by topology. Trace-based analysis adds value only where
+structure is not visible in the configuration: data-dependent routing, irregular MPI codes,
+fragmented allocations, and launches whose rank order silently departs from the intended layout.
+Our scrambled-Megatron case is a stand-in for the last; how often it occurs in practice is untested.
 
 \textbf{Synthetic workloads.} Every workload is a model. MoE routing affinity is a parameter, not
 an observation; load-balancing losses in real MoE training may suppress it. Megatron is modelled
@@ -472,16 +488,17 @@ allocation, to replace the analytic model with measured step times.
 CAGE turns communication traces into significance-tested graphs and exact-capacity placements
 scored under the regime the communication library actually implements. On models of today's
 training and HPC workloads it reaches a deliberately modest conclusion: communication-aware
-placement beats the launcher default only when the graph carries significant structure \emph{and}
-that structure disagrees with rank order. Raw modularity cannot tell the two cases apart, and
-neither can a bytes-only graph locate time bottlenecks. Real traces are the next step; the pipeline
+placement beats the launcher default only when the traffic carries structure that disagrees with
+rank order. Raw modularity cannot tell structured from unstructured graphs; a null-model test can
+guard against false structure but can also miss real structure hidden under placement-neutral
+collectives, and a bytes-only graph cannot locate time bottlenecks. Real traces are the next step; the pipeline
 and the experiments are ready for them.
 
 \section*{Artifact Availability}\label{sec:artifact}
 The code, the seven experiment scripts (E1--E7) and every results file behind this paper's
 numbers are available at \url{https://github.com/n0tdivyansh/cage-research}. \texttt{python -m pytest} runs the invariants
-the numbers depend on; \texttt{cage run --paper 1} regenerates all results in about a minute on
-a laptop.
+the numbers depend on; \texttt{cage run --paper 1} regenerates all results (runtimes are
+machine-dependent).
 
 \bibliographystyle{IEEEtran}
 \bibliography{refs}

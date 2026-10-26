@@ -34,7 +34,7 @@ for name, t in wl.items():
     sig = m.modularity_significance(M, n_null=n_null, seed=0)
     rows.append({"workload": name, "ranks": t.n_ranks, "density": float((M + M.T > 0).sum() / (t.n_ranks * (t.n_ranks - 1))),
                  "gini": ld["gini"], "top20_share": ld["top20_share"], "max/median": ld["max_over_median"],
-                 "hotspots": len(m.hotspots(M)), "Q": sig["Q"], "z": sig["z"],
+                 "hotspots": len(m.hotspots(M)), "Q": sig["Q"], "z": sig["z"], "p": sig["p_empirical"],
                  "H2_holds(top20>=0.7)": ld["top20_share"] >= 0.7})
 X.save_json(d, rows)
 
@@ -61,6 +61,6 @@ for ax, (name, M) in zip(axes.flat, mats.items()):
 fig.suptitle("Traffic matrices (rank × rank, log bytes, darker = more)", fontsize=11)
 X.save_fig(fig, d, "traffic_matrices")
 X.write_summary(d, "E3 — Workload characterisation", X.md_table(
-    rows, ["workload", "ranks", "density", "gini", "top20_share", "max/median", "hotspots", "Q", "z", "H2_holds(top20>=0.7)"],
-    {c: "{:.2f}" for c in ["density", "gini", "top20_share", "max/median", "Q", "z"]}))
+    rows, ["workload", "ranks", "density", "gini", "top20_share", "max/median", "hotspots", "Q", "z", "p", "H2_holds(top20>=0.7)"],
+    {**{c: "{:.2f}" for c in ["density", "gini", "top20_share", "max/median", "Q", "z"]}, "p": "{:.3f}"}))
 print(open(d / "summary.md").read())
