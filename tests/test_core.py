@@ -139,3 +139,39 @@ def test_pinned_matrix_excludes_collectives():
     Mp = PL.pinned_matrix(t, per_step=False)
     Ma = t.matrix(ops=["ep_alltoall"])
     np.testing.assert_allclose(Mp, Ma)
+
+
+def test_nccl_matrix_ring_bytes_under_block_and_round_robin():
+    S, n, g, steps = 1000.0, 16, 4, 4
+    t = W.dp_ring(world=n, gpn=g, grad_bytes=S, steps=steps)
+    edge = 2 * (n - 1) / n * S                                        # bytes per ring hop per step
+    blk, rr = P.block(n, g), P.round_robin(n, g)
+    cross = lambda M, h: (M * (h[:, None] != h[None, :])).sum()
+    Mb = PL.nccl_matrix(t, blk)
+    np.testing.assert_allclose(Mb, t.matrix(per_step=True))          # host order == rank order
+    np.testing.assert_allclose(Mb.sum(), n * edge)
+    np.testing.assert_allclose(PL.nccl_matrix(t, blk, per_step=False).sum(), steps * n * edge)
+    np.testing.assert_allclose(cross(Mb, blk), (n // g) * edge)       # ring leaves each host once
+    # re-ringed round-robin: same volume, same 4 crossings; the fixed rank-order ring crosses on all 16 hops
+    Mr = PL.nccl_matrix(t, rr)
+    np.testing.assert_allclose(Mr.sum(), n * edge)
+    assert (Mr > 0).sum() == n
+    np.testing.assert_allclose(cross(Mr, rr), (n // g) * edge)
+    np.testing.assert_allclose(cross(t.matrix(per_step=True), rr), n * edge)
+
+
+@pytest.mark.parametrize("name", ["dp_ring", "megatron", "megatron_scrambled", "stencil", "moe_aff"])
+def test_recommend_nccl_never_worse_than_block(name):
+    t = {"dp_ring": lambda: W.dp_ring(32),
+         "megatron": lambda: W.megatron_3d(4, 2, 4, gpn=4),
+         "megatron_scrambled": lambda: W.megatron_3d(4, 2, 4, gpn=4).relabel(
+             np.random.default_rng(1).permutation(32)),
+         "stencil": lambda: W.stencil((8, 4)),
+         "moe_aff": lambda: W.moe(world=32, affinity=0.6, steps=2)}[name]()
+    g = t.meta["gpus_per_node"]
+    h, info = PL.recommend_nccl(t, g)
+    blk = P.block(t.n_ranks, g)
+    assert np.bincount(h).tolist() == [g] * (t.n_ranks // g)
+    cross = lambda p: (PL.nccl_matrix(t, p) * (p[:, None] != p[None, :])).sum()
+    assert cross(h) <= cross(blk) + 1e-6 * max(cross(blk), 1.0)
+    assert info["cross_bytes"][info["chosen"]] <= info["cross_bytes"]["block"]
