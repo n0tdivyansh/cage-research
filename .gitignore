@@ -8,3 +8,9 @@ tools/pmpi_shim/selftest
 tools/pmpi_shim/selftest_out/
 results/real/
 # results/ from synthetic runs IS committed so findings are reproducible and diffable
+# LaTeX build files (PDFs are committed)
+*.aux
+*.log
+*.blg
+*.bbl
+*.out

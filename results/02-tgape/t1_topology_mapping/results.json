@@ -7,6 +7,8 @@
     "cross_host_bytes": 1030684475392.0,
     "est_time_s": 3.04818946048,
     "time_vs_block": 1.0,
+    "max_uplink_ms": 1208.32262144,
+    "max_nic_ms": 3025.5808512,
     "uplink_bound": false
   },
   {
@@ -17,6 +19,8 @@
     "cross_host_bytes": 741158158336.0,
     "est_time_s": 1.5185936384,
     "time_vs_block": 0.49819529202127294,
+    "max_uplink_ms": 863.86180096,
+    "max_nic_ms": 1402.47105536,
     "uplink_bound": false
   },
   {
@@ -27,6 +31,8 @@
     "cross_host_bytes": 741158158336.0,
     "est_time_s": 1.5185936384,
     "time_vs_block": 0.49819529202127294,
+    "max_uplink_ms": 454.02390527999995,
+    "max_nic_ms": 1402.47105536,
     "uplink_bound": false
   },
   {
@@ -37,6 +43,8 @@
     "cross_host_bytes": 741148524544.0,
     "est_time_s": 1.5375861896533332,
     "time_vs_block": 0.504426056709483,
+    "max_uplink_ms": 454.02390527999995,
+    "max_nic_ms": 1418.9664665599998,
     "uplink_bound": false
   },
   {
@@ -47,6 +55,8 @@
     "cross_host_bytes": 1030684475392.0,
     "est_time_s": 3.04818946048,
     "time_vs_block": 1.0,
+    "max_uplink_ms": 2416.64524288,
+    "max_nic_ms": 3025.5808512,
     "uplink_bound": false
   },
   {
@@ -57,6 +67,8 @@
     "cross_host_bytes": 741158158336.0,
     "est_time_s": 1.8438461849599999,
     "time_vs_block": 0.6048988125133299,
+    "max_uplink_ms": 1727.72360192,
+    "max_nic_ms": 1402.47105536,
     "uplink_bound": true
   },
   {
@@ -67,6 +79,8 @@
     "cross_host_bytes": 741158158336.0,
     "est_time_s": 1.5185936384,
     "time_vs_block": 0.49819529202127294,
+    "max_uplink_ms": 908.0478105599999,
+    "max_nic_ms": 1402.47105536,
     "uplink_bound": false
   },
   {
@@ -77,6 +91,8 @@
     "cross_host_bytes": 741148524544.0,
     "est_time_s": 1.5375861896533332,
     "time_vs_block": 0.504426056709483,
+    "max_uplink_ms": 908.0478105599999,
+    "max_nic_ms": 1418.9664665599998,
     "uplink_bound": false
   },
   {
@@ -87,6 +103,8 @@
     "cross_host_bytes": 1030684475392.0,
     "est_time_s": 4.85589909504,
     "time_vs_block": 1.0,
+    "max_uplink_ms": 4833.29048576,
+    "max_nic_ms": 3025.5808512,
     "uplink_bound": true
   },
   {
@@ -97,6 +115,8 @@
     "cross_host_bytes": 741158158336.0,
     "est_time_s": 3.57156978688,
     "time_vs_block": 0.7355115328751657,
+    "max_uplink_ms": 3455.44720384,
+    "max_nic_ms": 1402.47105536,
     "uplink_bound": true
   },
   {
@@ -107,6 +127,8 @@
     "cross_host_bytes": 741158158336.0,
     "est_time_s": 1.9322182041599998,
     "time_vs_block": 0.3979115229419905,
+    "max_uplink_ms": 1816.0956211199998,
+    "max_nic_ms": 1402.47105536,
     "uplink_bound": true
   },
   {
@@ -117,6 +139,8 @@
     "cross_host_bytes": 741148524544.0,
     "est_time_s": 1.9347153442133331,
     "time_vs_block": 0.3984257716947877,
+    "max_uplink_ms": 1816.0956211199998,
+    "max_nic_ms": 1418.9664665599998,
     "uplink_bound": true
   },
   {
@@ -127,6 +151,8 @@
     "cross_host_bytes": 1152000000.0,
     "est_time_s": 0.0018666666666666666,
     "time_vs_block": 1.0,
+    "max_uplink_ms": 0.64,
+    "max_nic_ms": 1.6,
     "uplink_bound": false
   },
   {
@@ -137,6 +163,8 @@
     "cross_host_bytes": 896000000.0,
     "est_time_s": 0.0016,
     "time_vs_block": 0.8571428571428572,
+    "max_uplink_ms": 0.64,
+    "max_nic_ms": 1.28,
     "uplink_bound": false
   },
   {
@@ -147,6 +175,8 @@
     "cross_host_bytes": 896000000.0,
     "est_time_s": 0.0016,
     "time_vs_block": 0.8571428571428572,
+    "max_uplink_ms": 0.64,
+    "max_nic_ms": 1.28,
     "uplink_bound": false
   },
   {
@@ -157,6 +187,8 @@
     "cross_host_bytes": 896000000.0,
     "est_time_s": 0.0016,
     "time_vs_block": 0.8571428571428572,
+    "max_uplink_ms": 0.48000000000000004,
+    "max_nic_ms": 1.28,
     "uplink_bound": false
   },
   {
@@ -167,6 +199,8 @@
     "cross_host_bytes": 1152000000.0,
     "est_time_s": 0.0018666666666666666,
     "time_vs_block": 1.0,
+    "max_uplink_ms": 1.28,
+    "max_nic_ms": 1.6,
     "uplink_bound": false
   },
   {
@@ -177,6 +211,8 @@
     "cross_host_bytes": 896000000.0,
     "est_time_s": 0.0016,
     "time_vs_block": 0.8571428571428572,
+    "max_uplink_ms": 1.28,
+    "max_nic_ms": 1.28,
     "uplink_bound": false
   },
   {
@@ -187,6 +223,8 @@
     "cross_host_bytes": 896000000.0,
     "est_time_s": 0.0016,
     "time_vs_block": 0.8571428571428572,
+    "max_uplink_ms": 1.28,
+    "max_nic_ms": 1.28,
     "uplink_bound": false
   },
   {
@@ -197,6 +235,8 @@
     "cross_host_bytes": 896000000.0,
     "est_time_s": 0.0016,
     "time_vs_block": 0.8571428571428572,
+    "max_uplink_ms": 0.9600000000000001,
+    "max_nic_ms": 1.28,
     "uplink_bound": false
   },
   {
@@ -207,6 +247,8 @@
     "cross_host_bytes": 1152000000.0,
     "est_time_s": 0.002826666666666667,
     "time_vs_block": 1.0,
+    "max_uplink_ms": 2.56,
+    "max_nic_ms": 1.6,
     "uplink_bound": true
   },
   {
@@ -217,6 +259,8 @@
     "cross_host_bytes": 896000000.0,
     "est_time_s": 0.00288,
     "time_vs_block": 1.0188679245283019,
+    "max_uplink_ms": 2.56,
+    "max_nic_ms": 1.28,
     "uplink_bound": true
   },
   {
@@ -227,6 +271,8 @@
     "cross_host_bytes": 896000000.0,
     "est_time_s": 0.00288,
     "time_vs_block": 1.0188679245283019,
+    "max_uplink_ms": 2.56,
+    "max_nic_ms": 1.28,
     "uplink_bound": true
   },
   {
@@ -237,6 +283,8 @@
     "cross_host_bytes": 896000000.0,
     "est_time_s": 0.0022400000000000002,
     "time_vs_block": 0.7924528301886793,
+    "max_uplink_ms": 1.9200000000000002,
+    "max_nic_ms": 1.28,
     "uplink_bound": true
   },
   {
@@ -247,6 +295,8 @@
     "cross_host_bytes": 3949625081856.0,
     "est_time_s": 5.315469421226667,
     "time_vs_block": 1.0,
+    "max_uplink_ms": 4233.227141120001,
+    "max_nic_ms": 5214.3587328,
     "uplink_bound": false
   },
   {
@@ -257,6 +307,8 @@
     "cross_host_bytes": 322122547200.0,
     "est_time_s": 1.2097491217066667,
     "time_vs_block": 0.22759027017927783,
+    "max_uplink_ms": 394.60012032000003,
+    "max_nic_ms": 408.02189311999996,
     "uplink_bound": false
   },
   {
@@ -267,6 +319,8 @@
     "cross_host_bytes": 322122547200.0,
     "est_time_s": 1.2097491217066667,
     "time_vs_block": 0.22759027017927783,
+    "max_uplink_ms": 21.47483648,
+    "max_nic_ms": 408.02189311999996,
     "uplink_bound": false
   },
   {
@@ -277,6 +331,8 @@
     "cross_host_bytes": 322122547200.0,
     "est_time_s": 1.2097491217066667,
     "time_vs_block": 0.22759027017927783,
+    "max_uplink_ms": 21.47483648,
+    "max_nic_ms": 408.02189311999996,
     "uplink_bound": false
   },
   {
@@ -287,6 +343,8 @@
     "cross_host_bytes": 3949625081856.0,
     "est_time_s": 8.567564970666668,
     "time_vs_block": 1.0,
+    "max_uplink_ms": 8466.454282240002,
+    "max_nic_ms": 5214.3587328,
     "uplink_bound": true
   },
   {
@@ -297,6 +355,8 @@
     "cross_host_bytes": 322122547200.0,
     "est_time_s": 1.5909274692266666,
     "time_vs_block": 0.1856919060052219,
+    "max_uplink_ms": 789.2002406400001,
+    "max_nic_ms": 408.02189311999996,
     "uplink_bound": true
   },
   {
@@ -307,6 +367,8 @@
     "cross_host_bytes": 322122547200.0,
     "est_time_s": 1.2097491217066667,
     "time_vs_block": 0.14120104438642297,
+    "max_uplink_ms": 42.94967296,
+    "max_nic_ms": 408.02189311999996,
     "uplink_bound": false
   },
   {
@@ -317,6 +379,8 @@
     "cross_host_bytes": 322122547200.0,
     "est_time_s": 1.2097491217066667,
     "time_vs_block": 0.14120104438642297,
+    "max_uplink_ms": 42.94967296,
+    "max_nic_ms": 408.02189311999996,
     "uplink_bound": false
   },
   {
@@ -327,6 +391,8 @@
     "cross_host_bytes": 3949625081856.0,
     "est_time_s": 17.034019252906667,
     "time_vs_block": 1.0,
+    "max_uplink_ms": 16932.908564480003,
+    "max_nic_ms": 5214.3587328,
     "uplink_bound": true
   },
   {
@@ -337,6 +403,8 @@
     "cross_host_bytes": 322122547200.0,
     "est_time_s": 2.3801277098666667,
     "time_vs_block": 0.1397278983033041,
+    "max_uplink_ms": 1578.4004812800001,
+    "max_nic_ms": 408.02189311999996,
     "uplink_bound": true
   },
   {
@@ -347,6 +415,8 @@
     "cross_host_bytes": 322122547200.0,
     "est_time_s": 1.2097491217066667,
     "time_vs_block": 0.07101959342333351,
+    "max_uplink_ms": 85.89934592,
+    "max_nic_ms": 408.02189311999996,
     "uplink_bound": false
   },
   {
@@ -357,6 +427,296 @@
     "cross_host_bytes": 322122547200.0,
     "est_time_s": 1.2097491217066667,
     "time_vs_block": 0.07101959342333351,
+    "max_uplink_ms": 85.89934592,
+    "max_nic_ms": 408.02189311999996,
+    "uplink_bound": false
+  },
+  {
+    "workload": "MoE aff 0.6, 128 ranks (nccl)",
+    "oversub": 1,
+    "strategy": "block",
+    "cross_leaf_frac": 0.5378389262021565,
+    "cross_host_bytes": 1094184475392.0,
+    "est_time_s": 3.2201686271466667,
+    "time_vs_block": 1.0,
+    "max_uplink_ms": 1228.16637144,
+    "max_nic_ms": 3104.9558512000003,
+    "uplink_bound": false
+  },
+  {
+    "workload": "MoE aff 0.6, 128 ranks (nccl)",
+    "oversub": 1,
+    "strategy": "flat",
+    "cross_leaf_frac": 0.3789786768490504,
+    "cross_host_bytes": 804651277056.0,
+    "est_time_s": 1.6905728050666666,
+    "time_vs_block": 0.5249951169683473,
+    "max_uplink_ms": 794.6665391199999,
+    "max_nic_ms": 1481.8460553599998,
+    "uplink_bound": false
+  },
+  {
+    "workload": "MoE aff 0.6, 128 ranks (nccl)",
+    "oversub": 1,
+    "strategy": "hierarchical",
+    "cross_leaf_frac": 0.2210940524376232,
+    "cross_host_bytes": 804651277056.0,
+    "est_time_s": 1.6905728050666666,
+    "time_vs_block": 0.5249951169683473,
+    "max_uplink_ms": 473.86765528,
+    "max_nic_ms": 1481.8460553599998,
+    "uplink_bound": false
+  },
+  {
+    "workload": "MoE aff 0.6, 128 ranks (nccl)",
+    "oversub": 1,
+    "strategy": "top_down",
+    "cross_leaf_frac": 0.2210940524376232,
+    "cross_host_bytes": 804648524544.0,
+    "est_time_s": 1.70956535632,
+    "time_vs_block": 0.530893115940582,
+    "max_uplink_ms": 473.86765528,
+    "max_nic_ms": 1498.3414665599998,
+    "uplink_bound": false
+  },
+  {
+    "workload": "MoE aff 0.6, 128 ranks (nccl)",
+    "oversub": 2,
+    "strategy": "block",
+    "cross_leaf_frac": 0.5378389262021565,
+    "cross_host_bytes": 1094184475392.0,
+    "est_time_s": 3.2201686271466667,
+    "time_vs_block": 1.0,
+    "max_uplink_ms": 2456.33274288,
+    "max_nic_ms": 3104.9558512000003,
+    "uplink_bound": false
+  },
+  {
+    "workload": "MoE aff 0.6, 128 ranks (nccl)",
+    "oversub": 2,
+    "strategy": "flat",
+    "cross_leaf_frac": 0.3789786768490504,
+    "cross_host_bytes": 804651277056.0,
+    "est_time_s": 1.7980598279466666,
+    "time_vs_block": 0.5583744319439243,
+    "max_uplink_ms": 1589.3330782399998,
+    "max_nic_ms": 1481.8460553599998,
+    "uplink_bound": true
+  },
+  {
+    "workload": "MoE aff 0.6, 128 ranks (nccl)",
+    "oversub": 2,
+    "strategy": "hierarchical",
+    "cross_leaf_frac": 0.2210940524376232,
+    "cross_host_bytes": 804651277056.0,
+    "est_time_s": 1.6905728050666666,
+    "time_vs_block": 0.5249951169683473,
+    "max_uplink_ms": 947.73531056,
+    "max_nic_ms": 1481.8460553599998,
+    "uplink_bound": false
+  },
+  {
+    "workload": "MoE aff 0.6, 128 ranks (nccl)",
+    "oversub": 2,
+    "strategy": "top_down",
+    "cross_leaf_frac": 0.2210940524376232,
+    "cross_host_bytes": 804648524544.0,
+    "est_time_s": 1.70956535632,
+    "time_vs_block": 0.530893115940582,
+    "max_uplink_ms": 947.73531056,
+    "max_nic_ms": 1498.3414665599998,
+    "uplink_bound": false
+  },
+  {
+    "workload": "MoE aff 0.6, 128 ranks (nccl)",
+    "oversub": 4,
+    "strategy": "block",
+    "cross_leaf_frac": 0.5378389262021565,
+    "cross_host_bytes": 1094184475392.0,
+    "est_time_s": 5.027878261706666,
+    "time_vs_block": 1.0,
+    "max_uplink_ms": 4912.66548576,
+    "max_nic_ms": 3104.9558512000003,
+    "uplink_bound": true
+  },
+  {
+    "workload": "MoE aff 0.6, 128 ranks (nccl)",
+    "oversub": 4,
+    "strategy": "flat",
+    "cross_leaf_frac": 0.3789786768490504,
+    "cross_host_bytes": 804651277056.0,
+    "est_time_s": 3.3873929061866663,
+    "time_vs_block": 0.6737221408055428,
+    "max_uplink_ms": 3178.6661564799997,
+    "max_nic_ms": 1481.8460553599998,
+    "uplink_bound": true
+  },
+  {
+    "workload": "MoE aff 0.6, 128 ranks (nccl)",
+    "oversub": 4,
+    "strategy": "hierarchical",
+    "cross_leaf_frac": 0.2210940524376232,
+    "cross_host_bytes": 804651277056.0,
+    "est_time_s": 2.104197370826667,
+    "time_vs_block": 0.4185060300390838,
+    "max_uplink_ms": 1895.47062112,
+    "max_nic_ms": 1481.8460553599998,
+    "uplink_bound": true
+  },
+  {
+    "workload": "MoE aff 0.6, 128 ranks (nccl)",
+    "oversub": 4,
+    "strategy": "top_down",
+    "cross_leaf_frac": 0.2210940524376232,
+    "cross_host_bytes": 804648524544.0,
+    "est_time_s": 2.10669451088,
+    "time_vs_block": 0.41900268885287256,
+    "max_uplink_ms": 1895.47062112,
+    "max_nic_ms": 1498.3414665599998,
+    "uplink_bound": true
+  },
+  {
+    "workload": "Megatron 8\u00b74\u00b74, scrambled (nccl)",
+    "oversub": 1,
+    "strategy": "block",
+    "cross_leaf_frac": 0.45098480947476827,
+    "cross_host_bytes": 3433692135424.0,
+    "est_time_s": 5.51500644352,
+    "time_vs_block": 1.0,
+    "max_uplink_ms": 2693.74980096,
+    "max_nic_ms": 5214.3587328,
+    "uplink_bound": false
+  },
+  {
+    "workload": "Megatron 8\u00b74\u00b74, scrambled (nccl)",
+    "oversub": 1,
+    "strategy": "flat",
+    "cross_leaf_frac": 0.04840370751802266,
+    "cross_host_bytes": 322122547200.0,
+    "est_time_s": 1.2097491217066667,
+    "time_vs_block": 0.21935588545469295,
+    "max_uplink_ms": 303.33206528,
+    "max_nic_ms": 408.02189311999996,
+    "uplink_bound": false
+  },
+  {
+    "workload": "Megatron 8\u00b74\u00b74, scrambled (nccl)",
+    "oversub": 1,
+    "strategy": "hierarchical",
+    "cross_leaf_frac": 0.003089598352214212,
+    "cross_host_bytes": 322122547200.0,
+    "est_time_s": 1.2097491217066667,
+    "time_vs_block": 0.21935588545469295,
+    "max_uplink_ms": 21.47483648,
+    "max_nic_ms": 408.02189311999996,
+    "uplink_bound": false
+  },
+  {
+    "workload": "Megatron 8\u00b74\u00b74, scrambled (nccl)",
+    "oversub": 1,
+    "strategy": "top_down",
+    "cross_leaf_frac": 0.003089598352214212,
+    "cross_host_bytes": 322122547200.0,
+    "est_time_s": 1.2097491217066667,
+    "time_vs_block": 0.21935588545469295,
+    "max_uplink_ms": 21.47483648,
+    "max_nic_ms": 408.02189311999996,
+    "uplink_bound": false
+  },
+  {
+    "workload": "Megatron 8\u00b74\u00b74, scrambled (nccl)",
+    "oversub": 2,
+    "strategy": "block",
+    "cross_leaf_frac": 0.45098480947476827,
+    "cross_host_bytes": 3433692135424.0,
+    "est_time_s": 5.68814731264,
+    "time_vs_block": 1.0,
+    "max_uplink_ms": 5387.49960192,
+    "max_nic_ms": 5214.3587328,
+    "uplink_bound": true
+  },
+  {
+    "workload": "Megatron 8\u00b74\u00b74, scrambled (nccl)",
+    "oversub": 2,
+    "strategy": "flat",
+    "cross_leaf_frac": 0.04840370751802266,
+    "cross_host_bytes": 322122547200.0,
+    "est_time_s": 1.4083913591466666,
+    "time_vs_block": 0.24760106968695925,
+    "max_uplink_ms": 606.66413056,
+    "max_nic_ms": 408.02189311999996,
+    "uplink_bound": true
+  },
+  {
+    "workload": "Megatron 8\u00b74\u00b74, scrambled (nccl)",
+    "oversub": 2,
+    "strategy": "hierarchical",
+    "cross_leaf_frac": 0.003089598352214212,
+    "cross_host_bytes": 322122547200.0,
+    "est_time_s": 1.2097491217066667,
+    "time_vs_block": 0.21267893660531698,
+    "max_uplink_ms": 42.94967296,
+    "max_nic_ms": 408.02189311999996,
+    "uplink_bound": false
+  },
+  {
+    "workload": "Megatron 8\u00b74\u00b74, scrambled (nccl)",
+    "oversub": 2,
+    "strategy": "top_down",
+    "cross_leaf_frac": 0.003089598352214212,
+    "cross_host_bytes": 322122547200.0,
+    "est_time_s": 1.2097491217066667,
+    "time_vs_block": 0.21267893660531698,
+    "max_uplink_ms": 42.94967296,
+    "max_nic_ms": 408.02189311999996,
+    "uplink_bound": false
+  },
+  {
+    "workload": "Megatron 8\u00b74\u00b74, scrambled (nccl)",
+    "oversub": 4,
+    "strategy": "block",
+    "cross_leaf_frac": 0.45098480947476827,
+    "cross_host_bytes": 3433692135424.0,
+    "est_time_s": 11.07564691456,
+    "time_vs_block": 1.0,
+    "max_uplink_ms": 10774.99920384,
+    "max_nic_ms": 5214.3587328,
+    "uplink_bound": true
+  },
+  {
+    "workload": "Megatron 8\u00b74\u00b74, scrambled (nccl)",
+    "oversub": 4,
+    "strategy": "flat",
+    "cross_leaf_frac": 0.04840370751802266,
+    "cross_host_bytes": 322122547200.0,
+    "est_time_s": 2.0150554897066666,
+    "time_vs_block": 0.1819356923574083,
+    "max_uplink_ms": 1213.32826112,
+    "max_nic_ms": 408.02189311999996,
+    "uplink_bound": true
+  },
+  {
+    "workload": "Megatron 8\u00b74\u00b74, scrambled (nccl)",
+    "oversub": 4,
+    "strategy": "hierarchical",
+    "cross_leaf_frac": 0.003089598352214212,
+    "cross_host_bytes": 322122547200.0,
+    "est_time_s": 1.2097491217066667,
+    "time_vs_block": 0.10922604621101956,
+    "max_uplink_ms": 85.89934592,
+    "max_nic_ms": 408.02189311999996,
+    "uplink_bound": false
+  },
+  {
+    "workload": "Megatron 8\u00b74\u00b74, scrambled (nccl)",
+    "oversub": 4,
+    "strategy": "top_down",
+    "cross_leaf_frac": 0.003089598352214212,
+    "cross_host_bytes": 322122547200.0,
+    "est_time_s": 1.2097491217066667,
+    "time_vs_block": 0.10922604621101956,
+    "max_uplink_ms": 85.89934592,
+    "max_nic_ms": 408.02189311999996,
     "uplink_bound": false
   }
 ]

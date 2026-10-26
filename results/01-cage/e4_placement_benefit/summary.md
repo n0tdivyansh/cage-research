@@ -1,6 +1,6 @@
 # E4 — Placement benefit vs. block placement
 
-_Generated 2026-10-26 10:44_
+_Generated 2026-10-26 10:56_
 
 > **Scenario values.** Inputs are synthetic workload models and costs come from an analytic model. These are not measurements on hardware.
 

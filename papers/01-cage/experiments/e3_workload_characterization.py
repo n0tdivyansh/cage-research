@@ -13,7 +13,7 @@ from matplotlib.colors import LinearSegmentedColormap
 from cage import expkit as X, metrics as m, workloads as W
 
 d = X.outdir("01-cage", "e3_workload_characterization")
-n_null = 15 if not X.quick() else 4
+n_null = 20 if not X.quick() else 4
 wl = {
     "DP ring": W.dp_ring(64),
     "DP hier. leader": W.dp_hier(64, variant="leader"),

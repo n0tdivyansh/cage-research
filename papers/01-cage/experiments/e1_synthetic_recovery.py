@@ -24,7 +24,7 @@ for mu in mus:
         t = t.relabel(perm)
         truth = t.meta["labels"]["block"]
         M = t.matrix(per_step=True)
-        sig = m.modularity_significance(M, n_null=10 if not X.quick() else 4, seed=s)
+        sig = m.modularity_significance(M, n_null=20 if not X.quick() else 4, seed=s)
         part = P.partition(M, n // k, "best", seed=s)
         Wm = M + M.T
         rows.append({"mu": mu, "seed": s, "louvain_nmi": m.nmi(sig["labels"], truth),

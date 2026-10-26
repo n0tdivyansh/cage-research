@@ -1,6 +1,6 @@
 # E6 — Extraction fidelity under step sampling
 
-_Generated 2026-10-26 10:38_
+_Generated 2026-10-26 10:57_
 
 > **Scenario values.** Inputs are synthetic workload models and costs come from an analytic model. These are not measurements on hardware.
 

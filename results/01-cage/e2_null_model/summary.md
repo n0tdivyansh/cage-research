@@ -1,6 +1,6 @@
 # E2 — Modularity needs a null model
 
-_Generated 2026-10-26 10:38_
+_Generated 2026-10-26 10:56_
 
 | graph | Q | null_Q | z | p | naive_rule_Q>0.3 | significant_z>3 |
 |---|---|---|---|---|---|---|

@@ -26,8 +26,8 @@
     "policy": "graph_home+lfu",
     "remote_bytes": 444853125120.0,
     "remote_frac": 0.33144140625,
-    "max_host_inbound": 57449381888.0,
-    "max_host_serve": 68475158528.0
+    "max_host_inbound": 57453576192.0,
+    "max_host_serve": 68476207104.0
   },
   {
     "affinity": 0.0,
@@ -36,8 +36,8 @@
     "policy": "graph_home+lfu+rep",
     "remote_bytes": 444853125120.0,
     "remote_frac": 0.33144140625,
-    "max_host_inbound": 57449381888.0,
-    "max_host_serve": 68475158528.0
+    "max_host_inbound": 57453576192.0,
+    "max_host_serve": 68476207104.0
   },
   {
     "affinity": 0.0,
@@ -66,8 +66,8 @@
     "policy": "graph_home+lfu",
     "remote_bytes": 255272681472.0,
     "remote_frac": 0.19019296875,
-    "max_host_inbound": 32873906176.0,
-    "max_host_serve": 37157339136.0
+    "max_host_inbound": 32878100480.0,
+    "max_host_serve": 37096521728.0
   },
   {
     "affinity": 0.0,
@@ -76,8 +76,8 @@
     "policy": "graph_home+lfu+rep",
     "remote_bytes": 255272681472.0,
     "remote_frac": 0.19019296875,
-    "max_host_inbound": 32873906176.0,
-    "max_host_serve": 37157339136.0
+    "max_host_inbound": 32878100480.0,
+    "max_host_serve": 37096521728.0
   },
   {
     "affinity": 0.0,
@@ -97,7 +97,7 @@
     "remote_bytes": 127489015808.0,
     "remote_frac": 0.09498671875,
     "max_host_inbound": 16132341760.0,
-    "max_host_serve": 16433283072.0
+    "max_host_serve": 16463691776.0
   },
   {
     "affinity": 0.0,
@@ -106,8 +106,8 @@
     "policy": "graph_home+lfu",
     "remote_bytes": 117012692992.0,
     "remote_frac": 0.08718125,
-    "max_host_inbound": 15140388864.0,
-    "max_host_serve": 16786653184.0
+    "max_host_inbound": 15137243136.0,
+    "max_host_serve": 16800284672.0
   },
   {
     "affinity": 0.0,
@@ -116,8 +116,8 @@
     "policy": "graph_home+lfu+rep",
     "remote_bytes": 117012692992.0,
     "remote_frac": 0.08718125,
-    "max_host_inbound": 15140388864.0,
-    "max_host_serve": 16786653184.0
+    "max_host_inbound": 15137243136.0,
+    "max_host_serve": 16741564416.0
   },
   {
     "affinity": 0.0,
@@ -144,8 +144,8 @@
     "cache_frac": 0.01,
     "rank_placement": "co-access",
     "policy": "graph_home+lfu",
-    "remote_bytes": 444739878912.0,
-    "remote_frac": 0.33135703125,
+    "remote_bytes": 444735684608.0,
+    "remote_frac": 0.33135390625,
     "max_host_inbound": 57262735360.0,
     "max_host_serve": 63598231552.0
   },
@@ -154,8 +154,8 @@
     "cache_frac": 0.01,
     "rank_placement": "co-access",
     "policy": "graph_home+lfu+rep",
-    "remote_bytes": 444739878912.0,
-    "remote_frac": 0.33135703125,
+    "remote_bytes": 444735684608.0,
+    "remote_frac": 0.33135390625,
     "max_host_inbound": 57262735360.0,
     "max_host_serve": 63598231552.0
   },
@@ -177,27 +177,27 @@
     "remote_bytes": 271578038272.0,
     "remote_frac": 0.20234140625,
     "max_host_inbound": 34680602624.0,
-    "max_host_serve": 36509319168.0
+    "max_host_serve": 36508270592.0
   },
   {
     "affinity": 0.0,
     "cache_frac": 0.05,
     "rank_placement": "co-access",
     "policy": "graph_home+lfu",
-    "remote_bytes": 255061917696.0,
-    "remote_frac": 0.1900359375,
-    "max_host_inbound": 32913752064.0,
-    "max_host_serve": 37075550208.0
+    "remote_bytes": 255057723392.0,
+    "remote_frac": 0.1900328125,
+    "max_host_inbound": 32927383552.0,
+    "max_host_serve": 37008441344.0
   },
   {
     "affinity": 0.0,
     "cache_frac": 0.05,
     "rank_placement": "co-access",
     "policy": "graph_home+lfu+rep",
-    "remote_bytes": 255061917696.0,
-    "remote_frac": 0.1900359375,
-    "max_host_inbound": 32913752064.0,
-    "max_host_serve": 36943429632.0
+    "remote_bytes": 255057723392.0,
+    "remote_frac": 0.1900328125,
+    "max_host_inbound": 32927383552.0,
+    "max_host_serve": 37008441344.0
   },
   {
     "affinity": 0.0,
@@ -217,27 +217,27 @@
     "remote_bytes": 127322292224.0,
     "remote_frac": 0.0948625,
     "max_host_inbound": 16159604736.0,
-    "max_host_serve": 16413360128.0
+    "max_host_serve": 16428040192.0
   },
   {
     "affinity": 0.0,
     "cache_frac": 0.2,
     "rank_placement": "co-access",
     "policy": "graph_home+lfu",
-    "remote_bytes": 116817657856.0,
-    "remote_frac": 0.0870359375,
-    "max_host_inbound": 15231614976.0,
-    "max_host_serve": 16148070400.0
+    "remote_bytes": 116813463552.0,
+    "remote_frac": 0.0870328125,
+    "max_host_inbound": 15245246464.0,
+    "max_host_serve": 16058941440.0
   },
   {
     "affinity": 0.0,
     "cache_frac": 0.2,
     "rank_placement": "co-access",
     "policy": "graph_home+lfu+rep",
-    "remote_bytes": 116817657856.0,
-    "remote_frac": 0.0870359375,
-    "max_host_inbound": 15231614976.0,
-    "max_host_serve": 16092495872.0
+    "remote_bytes": 116813463552.0,
+    "remote_frac": 0.0870328125,
+    "max_host_inbound": 15245246464.0,
+    "max_host_serve": 16058941440.0
   },
   {
     "affinity": 0.25,
@@ -264,20 +264,20 @@
     "cache_frac": 0.01,
     "rank_placement": "block",
     "policy": "graph_home+lfu",
-    "remote_bytes": 455765655552.0,
-    "remote_frac": 0.339571875,
-    "max_host_inbound": 59239301120.0,
-    "max_host_serve": 66056093696.0
+    "remote_bytes": 455768801280.0,
+    "remote_frac": 0.33957421875,
+    "max_host_inbound": 59238252544.0,
+    "max_host_serve": 66050850816.0
   },
   {
     "affinity": 0.25,
     "cache_frac": 0.01,
     "rank_placement": "block",
     "policy": "graph_home+lfu+rep",
-    "remote_bytes": 455765655552.0,
-    "remote_frac": 0.339571875,
-    "max_host_inbound": 59239301120.0,
-    "max_host_serve": 66056093696.0
+    "remote_bytes": 455768801280.0,
+    "remote_frac": 0.33957421875,
+    "max_host_inbound": 59238252544.0,
+    "max_host_serve": 66050850816.0
   },
   {
     "affinity": 0.25,
@@ -297,27 +297,27 @@
     "remote_bytes": 278788046848.0,
     "remote_frac": 0.20771328125,
     "max_host_inbound": 35326525440.0,
-    "max_host_serve": 37493932032.0
+    "max_host_serve": 37356568576.0
   },
   {
     "affinity": 0.25,
     "cache_frac": 0.05,
     "rank_placement": "block",
     "policy": "graph_home+lfu",
-    "remote_bytes": 261991956480.0,
-    "remote_frac": 0.19519921875,
-    "max_host_inbound": 33897316352.0,
-    "max_host_serve": 37307285504.0
+    "remote_bytes": 261995102208.0,
+    "remote_frac": 0.1952015625,
+    "max_host_inbound": 33896267776.0,
+    "max_host_serve": 37306236928.0
   },
   {
     "affinity": 0.25,
     "cache_frac": 0.05,
     "rank_placement": "block",
     "policy": "graph_home+lfu+rep",
-    "remote_bytes": 261991956480.0,
-    "remote_frac": 0.19519921875,
-    "max_host_inbound": 33897316352.0,
-    "max_host_serve": 37307285504.0
+    "remote_bytes": 261995102208.0,
+    "remote_frac": 0.1952015625,
+    "max_host_inbound": 33896267776.0,
+    "max_host_serve": 37306236928.0
   },
   {
     "affinity": 0.25,
@@ -337,27 +337,27 @@
     "remote_bytes": 130778398720.0,
     "remote_frac": 0.0974375,
     "max_host_inbound": 16554917888.0,
-    "max_host_serve": 16929259520.0
+    "max_host_serve": 16846422016.0
   },
   {
     "affinity": 0.25,
     "cache_frac": 0.2,
     "rank_placement": "block",
     "policy": "graph_home+lfu",
-    "remote_bytes": 120251744256.0,
-    "remote_frac": 0.08959453125,
-    "max_host_inbound": 15632171008.0,
-    "max_host_serve": 16537092096.0
+    "remote_bytes": 120254889984.0,
+    "remote_frac": 0.089596875,
+    "max_host_inbound": 15631122432.0,
+    "max_host_serve": 16635658240.0
   },
   {
     "affinity": 0.25,
     "cache_frac": 0.2,
     "rank_placement": "block",
     "policy": "graph_home+lfu+rep",
-    "remote_bytes": 120251744256.0,
-    "remote_frac": 0.08959453125,
-    "max_host_inbound": 15632171008.0,
-    "max_host_serve": 16581132288.0
+    "remote_bytes": 120254889984.0,
+    "remote_frac": 0.089596875,
+    "max_host_inbound": 15631122432.0,
+    "max_host_serve": 16635658240.0
   },
   {
     "affinity": 0.25,
@@ -384,20 +384,20 @@
     "cache_frac": 0.01,
     "rank_placement": "co-access",
     "policy": "graph_home+lfu",
-    "remote_bytes": 347333459968.0,
-    "remote_frac": 0.25878359375,
-    "max_host_inbound": 44431310848.0,
-    "max_host_serve": 49143611392.0
+    "remote_bytes": 347335557120.0,
+    "remote_frac": 0.25878515625,
+    "max_host_inbound": 44433408000.0,
+    "max_host_serve": 49144659968.0
   },
   {
     "affinity": 0.25,
     "cache_frac": 0.01,
     "rank_placement": "co-access",
     "policy": "graph_home+lfu+rep",
-    "remote_bytes": 347333459968.0,
-    "remote_frac": 0.25878359375,
-    "max_host_inbound": 44431310848.0,
-    "max_host_serve": 49143611392.0
+    "remote_bytes": 347335557120.0,
+    "remote_frac": 0.25878515625,
+    "max_host_inbound": 44433408000.0,
+    "max_host_serve": 49144659968.0
   },
   {
     "affinity": 0.25,
@@ -424,20 +424,20 @@
     "cache_frac": 0.05,
     "rank_placement": "co-access",
     "policy": "graph_home+lfu",
-    "remote_bytes": 202663526400.0,
-    "remote_frac": 0.15099609375,
-    "max_host_inbound": 25840058368.0,
-    "max_host_serve": 27539800064.0
+    "remote_bytes": 202665623552.0,
+    "remote_frac": 0.15099765625,
+    "max_host_inbound": 25842155520.0,
+    "max_host_serve": 27542945792.0
   },
   {
     "affinity": 0.25,
     "cache_frac": 0.05,
     "rank_placement": "co-access",
     "policy": "graph_home+lfu+rep",
-    "remote_bytes": 202663526400.0,
-    "remote_frac": 0.15099609375,
-    "max_host_inbound": 25840058368.0,
-    "max_host_serve": 27539800064.0
+    "remote_bytes": 202665623552.0,
+    "remote_frac": 0.15099765625,
+    "max_host_inbound": 25842155520.0,
+    "max_host_serve": 27542945792.0
   },
   {
     "affinity": 0.25,
@@ -457,27 +457,27 @@
     "remote_bytes": 114772934656.0,
     "remote_frac": 0.0855125,
     "max_host_inbound": 15070134272.0,
-    "max_host_serve": 14990442496.0
+    "max_host_serve": 15044968448.0
   },
   {
     "affinity": 0.25,
     "cache_frac": 0.2,
     "rank_placement": "co-access",
     "policy": "graph_home+lfu",
-    "remote_bytes": 94546952192.0,
-    "remote_frac": 0.07044296875,
-    "max_host_inbound": 12096372736.0,
-    "max_host_serve": 12485394432.0
+    "remote_bytes": 94548000768.0,
+    "remote_frac": 0.07044375,
+    "max_host_inbound": 12095324160.0,
+    "max_host_serve": 12411994112.0
   },
   {
     "affinity": 0.25,
     "cache_frac": 0.2,
     "rank_placement": "co-access",
     "policy": "graph_home+lfu+rep",
-    "remote_bytes": 94546952192.0,
-    "remote_frac": 0.07044296875,
-    "max_host_inbound": 12096372736.0,
-    "max_host_serve": 12485394432.0
+    "remote_bytes": 94548000768.0,
+    "remote_frac": 0.07044375,
+    "max_host_inbound": 12095324160.0,
+    "max_host_serve": 12435062784.0
   },
   {
     "affinity": 0.5,
@@ -504,20 +504,20 @@
     "cache_frac": 0.01,
     "rank_placement": "block",
     "policy": "graph_home+lfu",
-    "remote_bytes": 468215398400.0,
-    "remote_frac": 0.34884765625,
-    "max_host_inbound": 59632517120.0,
-    "max_host_serve": 66830991360.0
+    "remote_bytes": 468223787008.0,
+    "remote_frac": 0.34885390625,
+    "max_host_inbound": 59643002880.0,
+    "max_host_serve": 66828894208.0
   },
   {
     "affinity": 0.5,
     "cache_frac": 0.01,
     "rank_placement": "block",
     "policy": "graph_home+lfu+rep",
-    "remote_bytes": 468215398400.0,
-    "remote_frac": 0.34884765625,
-    "max_host_inbound": 59632517120.0,
-    "max_host_serve": 66830991360.0
+    "remote_bytes": 468223787008.0,
+    "remote_frac": 0.34885390625,
+    "max_host_inbound": 59643002880.0,
+    "max_host_serve": 66828894208.0
   },
   {
     "affinity": 0.5,
@@ -537,27 +537,27 @@
     "remote_bytes": 286563237888.0,
     "remote_frac": 0.21350625,
     "max_host_inbound": 36689674240.0,
-    "max_host_serve": 39268122624.0
+    "max_host_serve": 39264976896.0
   },
   {
     "affinity": 0.5,
     "cache_frac": 0.05,
     "rank_placement": "block",
     "policy": "graph_home+lfu",
-    "remote_bytes": 270080671744.0,
-    "remote_frac": 0.20122578125,
-    "max_host_inbound": 34741420032.0,
-    "max_host_serve": 39772487680.0
+    "remote_bytes": 270089060352.0,
+    "remote_frac": 0.20123203125,
+    "max_host_inbound": 34742468608.0,
+    "max_host_serve": 39704330240.0
   },
   {
     "affinity": 0.5,
     "cache_frac": 0.05,
     "rank_placement": "block",
     "policy": "graph_home+lfu+rep",
-    "remote_bytes": 270080671744.0,
-    "remote_frac": 0.20122578125,
-    "max_host_inbound": 34741420032.0,
-    "max_host_serve": 39772487680.0
+    "remote_bytes": 270089060352.0,
+    "remote_frac": 0.20123203125,
+    "max_host_inbound": 34742468608.0,
+    "max_host_serve": 39704330240.0
   },
   {
     "affinity": 0.5,
@@ -577,27 +577,27 @@
     "remote_bytes": 134293225472.0,
     "remote_frac": 0.10005625,
     "max_host_inbound": 17094934528.0,
-    "max_host_serve": 17209229312.0
+    "max_host_serve": 17193500672.0
   },
   {
     "affinity": 0.5,
     "cache_frac": 0.2,
     "rank_placement": "block",
     "policy": "graph_home+lfu",
-    "remote_bytes": 123902885888.0,
-    "remote_frac": 0.09231484375,
-    "max_host_inbound": 15990784000.0,
-    "max_host_serve": 17477664768.0
+    "remote_bytes": 123911274496.0,
+    "remote_frac": 0.09232109375,
+    "max_host_inbound": 15994978304.0,
+    "max_host_serve": 17447256064.0
   },
   {
     "affinity": 0.5,
     "cache_frac": 0.2,
     "rank_placement": "block",
     "policy": "graph_home+lfu+rep",
-    "remote_bytes": 123902885888.0,
-    "remote_frac": 0.09231484375,
-    "max_host_inbound": 15990784000.0,
-    "max_host_serve": 17477664768.0
+    "remote_bytes": 123911274496.0,
+    "remote_frac": 0.09232109375,
+    "max_host_inbound": 15994978304.0,
+    "max_host_serve": 17447256064.0
   },
   {
     "affinity": 0.5,
@@ -626,7 +626,7 @@
     "policy": "graph_home+lfu",
     "remote_bytes": 232563671040.0,
     "remote_frac": 0.1732734375,
-    "max_host_inbound": 30280777728.0,
+    "max_host_inbound": 30276583424.0,
     "max_host_serve": 34307309568.0
   },
   {
@@ -636,7 +636,7 @@
     "policy": "graph_home+lfu+rep",
     "remote_bytes": 232563671040.0,
     "remote_frac": 0.1732734375,
-    "max_host_inbound": 30280777728.0,
+    "max_host_inbound": 30276583424.0,
     "max_host_serve": 34307309568.0
   },
   {
@@ -657,7 +657,7 @@
     "remote_bytes": 226862563328.0,
     "remote_frac": 0.16902578125,
     "max_host_inbound": 33106690048.0,
-    "max_host_serve": 29331816448.0
+    "max_host_serve": 29366419456.0
   },
   {
     "affinity": 0.5,
@@ -666,8 +666,8 @@
     "policy": "graph_home+lfu",
     "remote_bytes": 135481262080.0,
     "remote_frac": 0.10094140625,
-    "max_host_inbound": 17550016512.0,
-    "max_host_serve": 18571329536.0
+    "max_host_inbound": 17545822208.0,
+    "max_host_serve": 18604883968.0
   },
   {
     "affinity": 0.5,
@@ -676,8 +676,8 @@
     "policy": "graph_home+lfu+rep",
     "remote_bytes": 135481262080.0,
     "remote_frac": 0.10094140625,
-    "max_host_inbound": 17550016512.0,
-    "max_host_serve": 18605932544.0
+    "max_host_inbound": 17545822208.0,
+    "max_host_serve": 18535677952.0
   },
   {
     "affinity": 0.5,
@@ -704,20 +704,20 @@
     "cache_frac": 0.2,
     "rank_placement": "co-access",
     "policy": "graph_home+lfu",
-    "remote_bytes": 62239277056.0,
-    "remote_frac": 0.046371875,
-    "max_host_inbound": 8009023488.0,
-    "max_host_serve": 8058306560.0
+    "remote_bytes": 62240325632.0,
+    "remote_frac": 0.04637265625,
+    "max_host_inbound": 8004829184.0,
+    "max_host_serve": 8066695168.0
   },
   {
     "affinity": 0.5,
     "cache_frac": 0.2,
     "rank_placement": "co-access",
     "policy": "graph_home+lfu+rep",
-    "remote_bytes": 62240325632.0,
-    "remote_frac": 0.04637265625,
-    "max_host_inbound": 8009023488.0,
-    "max_host_serve": 8058306560.0
+    "remote_bytes": 62241374208.0,
+    "remote_frac": 0.0463734375,
+    "max_host_inbound": 8004829184.0,
+    "max_host_serve": 8064598016.0
   },
   {
     "affinity": 0.75,
@@ -744,20 +744,20 @@
     "cache_frac": 0.01,
     "rank_placement": "block",
     "policy": "graph_home+lfu",
-    "remote_bytes": 478861590528.0,
-    "remote_frac": 0.3567796875,
-    "max_host_inbound": 62688067584.0,
-    "max_host_serve": 72557264896.0
+    "remote_bytes": 478866833408.0,
+    "remote_frac": 0.35678359375,
+    "max_host_inbound": 62691213312.0,
+    "max_host_serve": 72559362048.0
   },
   {
     "affinity": 0.75,
     "cache_frac": 0.01,
     "rank_placement": "block",
     "policy": "graph_home+lfu+rep",
-    "remote_bytes": 478861590528.0,
-    "remote_frac": 0.3567796875,
-    "max_host_inbound": 62688067584.0,
-    "max_host_serve": 72557264896.0
+    "remote_bytes": 478866833408.0,
+    "remote_frac": 0.35678359375,
+    "max_host_inbound": 62691213312.0,
+    "max_host_serve": 72559362048.0
   },
   {
     "affinity": 0.75,
@@ -777,27 +777,27 @@
     "remote_bytes": 293752274944.0,
     "remote_frac": 0.2188625,
     "max_host_inbound": 37258002432.0,
-    "max_host_serve": 40033583104.0
+    "max_host_serve": 40184578048.0
   },
   {
     "affinity": 0.75,
     "cache_frac": 0.05,
     "rank_placement": "block",
     "policy": "graph_home+lfu",
-    "remote_bytes": 276705574912.0,
-    "remote_frac": 0.20616171875,
-    "max_host_inbound": 35605446656.0,
-    "max_host_serve": 40489713664.0
+    "remote_bytes": 276710817792.0,
+    "remote_frac": 0.206165625,
+    "max_host_inbound": 35615932416.0,
+    "max_host_serve": 40421556224.0
   },
   {
     "affinity": 0.75,
     "cache_frac": 0.05,
     "rank_placement": "block",
     "policy": "graph_home+lfu+rep",
-    "remote_bytes": 276705574912.0,
-    "remote_frac": 0.20616171875,
-    "max_host_inbound": 35605446656.0,
-    "max_host_serve": 40419459072.0
+    "remote_bytes": 276710817792.0,
+    "remote_frac": 0.206165625,
+    "max_host_inbound": 35615932416.0,
+    "max_host_serve": 40421556224.0
   },
   {
     "affinity": 0.75,
@@ -817,27 +817,27 @@
     "remote_bytes": 137063563264.0,
     "remote_frac": 0.1021203125,
     "max_host_inbound": 17495490560.0,
-    "max_host_serve": 17799577600.0
+    "max_host_serve": 17831034880.0
   },
   {
     "affinity": 0.75,
     "cache_frac": 0.2,
     "rank_placement": "block",
     "policy": "graph_home+lfu",
-    "remote_bytes": 126497062912.0,
-    "remote_frac": 0.09424765625,
-    "max_host_inbound": 16488857600.0,
-    "max_host_serve": 17795383296.0
+    "remote_bytes": 126502305792.0,
+    "remote_frac": 0.0942515625,
+    "max_host_inbound": 16472080384.0,
+    "max_host_serve": 17779654656.0
   },
   {
     "affinity": 0.75,
     "cache_frac": 0.2,
     "rank_placement": "block",
     "policy": "graph_home+lfu+rep",
-    "remote_bytes": 126497062912.0,
-    "remote_frac": 0.09424765625,
-    "max_host_inbound": 16488857600.0,
-    "max_host_serve": 17795383296.0
+    "remote_bytes": 126502305792.0,
+    "remote_frac": 0.0942515625,
+    "max_host_inbound": 16472080384.0,
+    "max_host_serve": 17779654656.0
   },
   {
     "affinity": 0.75,
@@ -864,20 +864,20 @@
     "cache_frac": 0.01,
     "rank_placement": "co-access",
     "policy": "graph_home+lfu",
-    "remote_bytes": 116616331264.0,
-    "remote_frac": 0.0868859375,
+    "remote_bytes": 116603748352.0,
+    "remote_frac": 0.0868765625,
     "max_host_inbound": 15046017024.0,
-    "max_host_serve": 17590910976.0
+    "max_host_serve": 17600348160.0
   },
   {
     "affinity": 0.75,
     "cache_frac": 0.01,
     "rank_placement": "co-access",
     "policy": "graph_home+lfu+rep",
-    "remote_bytes": 116616331264.0,
-    "remote_frac": 0.0868859375,
+    "remote_bytes": 116603748352.0,
+    "remote_frac": 0.0868765625,
     "max_host_inbound": 15046017024.0,
-    "max_host_serve": 17590910976.0
+    "max_host_serve": 17600348160.0
   },
   {
     "affinity": 0.75,
@@ -897,27 +897,27 @@
     "remote_bytes": 171160109056.0,
     "remote_frac": 0.12752421875,
     "max_host_inbound": 26131562496.0,
-    "max_host_serve": 22335717376.0
+    "max_host_serve": 22270705664.0
   },
   {
     "affinity": 0.75,
     "cache_frac": 0.05,
     "rank_placement": "co-access",
     "policy": "graph_home+lfu",
-    "remote_bytes": 67881664512.0,
-    "remote_frac": 0.05057578125,
-    "max_host_inbound": 8670674944.0,
-    "max_host_serve": 9312403456.0
+    "remote_bytes": 67869081600.0,
+    "remote_frac": 0.05056640625,
+    "max_host_inbound": 8668577792.0,
+    "max_host_serve": 9258926080.0
   },
   {
     "affinity": 0.75,
     "cache_frac": 0.05,
     "rank_placement": "co-access",
     "policy": "graph_home+lfu+rep",
-    "remote_bytes": 67881664512.0,
-    "remote_frac": 0.05057578125,
-    "max_host_inbound": 8670674944.0,
-    "max_host_serve": 9243197440.0
+    "remote_bytes": 67869081600.0,
+    "remote_frac": 0.05056640625,
+    "max_host_inbound": 8668577792.0,
+    "max_host_serve": 9258926080.0
   },
   {
     "affinity": 0.75,
@@ -937,27 +937,27 @@
     "remote_bytes": 41429237760.0,
     "remote_frac": 0.0308671875,
     "max_host_inbound": 5293211648.0,
-    "max_host_serve": 5386534912.0
+    "max_host_serve": 5413797888.0
   },
   {
     "affinity": 0.75,
     "cache_frac": 0.2,
     "rank_placement": "co-access",
     "policy": "graph_home+lfu",
-    "remote_bytes": 29722935296.0,
-    "remote_frac": 0.0221453125,
+    "remote_bytes": 29720838144.0,
+    "remote_frac": 0.02214375,
     "max_host_inbound": 3845128192.0,
-    "max_host_serve": 3857711104.0
+    "max_host_serve": 3868196864.0
   },
   {
     "affinity": 0.75,
     "cache_frac": 0.2,
     "rank_placement": "co-access",
     "policy": "graph_home+lfu+rep",
-    "remote_bytes": 29727129600.0,
-    "remote_frac": 0.0221484375,
+    "remote_bytes": 29725032448.0,
+    "remote_frac": 0.022146875,
     "max_host_inbound": 3845128192.0,
-    "max_host_serve": 3825205248.0
+    "max_host_serve": 3813670912.0
   },
   {
     "affinity": 0.9,
@@ -984,9 +984,9 @@
     "cache_frac": 0.01,
     "rank_placement": "block",
     "policy": "graph_home+lfu",
-    "remote_bytes": 483764731904.0,
-    "remote_frac": 0.3604328125,
-    "max_host_inbound": 61710794752.0,
+    "remote_bytes": 483763683328.0,
+    "remote_frac": 0.36043203125,
+    "max_host_inbound": 61702406144.0,
     "max_host_serve": 80895541248.0
   },
   {
@@ -994,9 +994,9 @@
     "cache_frac": 0.01,
     "rank_placement": "block",
     "policy": "graph_home+lfu+rep",
-    "remote_bytes": 483764731904.0,
-    "remote_frac": 0.3604328125,
-    "max_host_inbound": 61710794752.0,
+    "remote_bytes": 483763683328.0,
+    "remote_frac": 0.36043203125,
+    "max_host_inbound": 61702406144.0,
     "max_host_serve": 80895541248.0
   },
   {
@@ -1017,16 +1017,16 @@
     "remote_bytes": 297154904064.0,
     "remote_frac": 0.22139765625,
     "max_host_inbound": 37692112896.0,
-    "max_host_serve": 40194015232.0
+    "max_host_serve": 40198209536.0
   },
   {
     "affinity": 0.9,
     "cache_frac": 0.05,
     "rank_placement": "block",
     "policy": "graph_home+lfu",
-    "remote_bytes": 280043192320.0,
-    "remote_frac": 0.2086484375,
-    "max_host_inbound": 36106665984.0,
+    "remote_bytes": 280042143744.0,
+    "remote_frac": 0.20864765625,
+    "max_host_inbound": 36098277376.0,
     "max_host_serve": 43947917312.0
   },
   {
@@ -1034,9 +1034,9 @@
     "cache_frac": 0.05,
     "rank_placement": "block",
     "policy": "graph_home+lfu+rep",
-    "remote_bytes": 280043192320.0,
-    "remote_frac": 0.2086484375,
-    "max_host_inbound": 36106665984.0,
+    "remote_bytes": 280042143744.0,
+    "remote_frac": 0.20864765625,
+    "max_host_inbound": 36098277376.0,
     "max_host_serve": 43947917312.0
   },
   {
@@ -1057,27 +1057,27 @@
     "remote_bytes": 137716826112.0,
     "remote_frac": 0.10260703125,
     "max_host_inbound": 17399021568.0,
-    "max_host_serve": 17840472064.0
+    "max_host_serve": 17874026496.0
   },
   {
     "affinity": 0.9,
     "cache_frac": 0.2,
     "rank_placement": "block",
     "policy": "graph_home+lfu",
-    "remote_bytes": 126990942208.0,
-    "remote_frac": 0.094615625,
-    "max_host_inbound": 16726884352.0,
-    "max_host_serve": 18674089984.0
+    "remote_bytes": 126989893632.0,
+    "remote_frac": 0.09461484375,
+    "max_host_inbound": 16718495744.0,
+    "max_host_serve": 18637389824.0
   },
   {
     "affinity": 0.9,
     "cache_frac": 0.2,
     "rank_placement": "block",
     "policy": "graph_home+lfu+rep",
-    "remote_bytes": 126990942208.0,
-    "remote_frac": 0.094615625,
-    "max_host_inbound": 16726884352.0,
-    "max_host_serve": 18674089984.0
+    "remote_bytes": 126989893632.0,
+    "remote_frac": 0.09461484375,
+    "max_host_inbound": 16718495744.0,
+    "max_host_serve": 18637389824.0
   },
   {
     "affinity": 0.9,
@@ -1104,20 +1104,20 @@
     "cache_frac": 0.01,
     "rank_placement": "co-access",
     "policy": "graph_home+lfu",
-    "remote_bytes": 46370127872.0,
-    "remote_frac": 0.0345484375,
+    "remote_bytes": 46381662208.0,
+    "remote_frac": 0.03455703125,
     "max_host_inbound": 5962203136.0,
-    "max_host_serve": 7005536256.0
+    "max_host_serve": 7021264896.0
   },
   {
     "affinity": 0.9,
     "cache_frac": 0.01,
     "rank_placement": "co-access",
     "policy": "graph_home+lfu+rep",
-    "remote_bytes": 46370127872.0,
-    "remote_frac": 0.0345484375,
+    "remote_bytes": 46381662208.0,
+    "remote_frac": 0.03455703125,
     "max_host_inbound": 5962203136.0,
-    "max_host_serve": 7005536256.0
+    "max_host_serve": 7021264896.0
   },
   {
     "affinity": 0.9,
@@ -1137,27 +1137,27 @@
     "remote_bytes": 121403080704.0,
     "remote_frac": 0.09045234375,
     "max_host_inbound": 19479396352.0,
-    "max_host_serve": 16533946368.0
+    "max_host_serve": 16446914560.0
   },
   {
     "affinity": 0.9,
     "cache_frac": 0.05,
     "rank_placement": "co-access",
     "policy": "graph_home+lfu",
-    "remote_bytes": 26458718208.0,
-    "remote_frac": 0.01971328125,
+    "remote_bytes": 26467106816.0,
+    "remote_frac": 0.01971953125,
     "max_host_inbound": 3437232128.0,
-    "max_host_serve": 3609198592.0
+    "max_host_serve": 3617587200.0
   },
   {
     "affinity": 0.9,
     "cache_frac": 0.05,
     "rank_placement": "co-access",
     "policy": "graph_home+lfu+rep",
-    "remote_bytes": 26478641152.0,
-    "remote_frac": 0.019728125,
+    "remote_bytes": 26489126912.0,
+    "remote_frac": 0.0197359375,
     "max_host_inbound": 3437232128.0,
-    "max_host_serve": 3587178496.0
+    "max_host_serve": 3595567104.0
   },
   {
     "affinity": 0.9,
@@ -1177,26 +1177,26 @@
     "remote_bytes": 15417212928.0,
     "remote_frac": 0.01148671875,
     "max_host_inbound": 1973420032.0,
-    "max_host_serve": 2058354688.0
+    "max_host_serve": 2067791872.0
   },
   {
     "affinity": 0.9,
     "cache_frac": 0.2,
     "rank_placement": "co-access",
     "policy": "graph_home+lfu",
-    "remote_bytes": 10044309504.0,
-    "remote_frac": 0.00748359375,
+    "remote_bytes": 10046406656.0,
+    "remote_frac": 0.00748515625,
     "max_host_inbound": 1363148800.0,
-    "max_host_serve": 1296039936.0
+    "max_host_serve": 1355808768.0
   },
   {
     "affinity": 0.9,
     "cache_frac": 0.2,
     "rank_placement": "co-access",
     "policy": "graph_home+lfu+rep",
-    "remote_bytes": 10044309504.0,
-    "remote_frac": 0.00748359375,
+    "remote_bytes": 10046406656.0,
+    "remote_frac": 0.00748515625,
     "max_host_inbound": 1363148800.0,
-    "max_host_serve": 1311768576.0
+    "max_host_serve": 1313865728.0
   }
 ]

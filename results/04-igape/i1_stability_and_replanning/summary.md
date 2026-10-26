@@ -1,6 +1,6 @@
 # I1 — Stability and re-planning
 
-_Generated 2026-10-26 10:39_
+_Generated 2026-10-26 10:57_
 
 > **Scenario values.** Inputs are synthetic workload models and costs come from an analytic model. These are not measurements on hardware.
 
