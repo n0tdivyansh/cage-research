@@ -1,0 +1,31 @@
+{
+ "rank": 0,
+ "nodes": [
+  {
+   "id": 1,
+   "name": "ProfilerStep#0",
+   "type": 4,
+   "attr": []
+  },
+  {
+   "id": 2,
+   "name": "nccl:all_reduce",
+   "type": "COMM_COLL_NODE",
+   "duration_micros": 100,
+   "attr": [
+    {
+     "name": "comm_type",
+     "int64_val": 0
+    },
+    {
+     "name": "comm_size",
+     "int64_val": 4096
+    },
+    {
+     "name": "pg_name",
+     "string_val": "0"
+    }
+   ]
+  }
+ ]
+}

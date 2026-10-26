@@ -1,0 +1,252 @@
+[
+  {
+    "migration_s_per_rank": 0.0,
+    "variant": "block",
+    "comm_s": 271.2822978969601,
+    "migration_s": 0.0,
+    "total_s": 271.2822978969601,
+    "replans": 0,
+    "skipped": 0,
+    "ranks_moved": 0
+  },
+  {
+    "migration_s_per_rank": 0.0,
+    "variant": "once",
+    "comm_s": 242.43506861397339,
+    "migration_s": 0.0,
+    "total_s": 242.43506861397339,
+    "replans": 1,
+    "skipped": 0,
+    "ranks_moved": 56
+  },
+  {
+    "migration_s_per_rank": 0.0,
+    "variant": "gape",
+    "comm_s": 144.57004971349338,
+    "migration_s": 0.0,
+    "total_s": 144.57004971349338,
+    "replans": 6,
+    "skipped": 32,
+    "ranks_moved": 192
+  },
+  {
+    "migration_s_per_rank": 0.0,
+    "variant": "gape, no cost gate",
+    "comm_s": 153.02088545621334,
+    "migration_s": 0.0,
+    "total_s": 153.02088545621334,
+    "replans": 7,
+    "skipped": 0,
+    "ranks_moved": 192
+  },
+  {
+    "migration_s_per_rank": 0.0,
+    "variant": "gape, topology-oblivious",
+    "comm_s": 147.1802437358933,
+    "migration_s": 0.0,
+    "total_s": 147.1802437358933,
+    "replans": 4,
+    "skipped": 82,
+    "ranks_moved": 192
+  },
+  {
+    "migration_s_per_rank": 0.01,
+    "variant": "block",
+    "comm_s": 271.2822978969601,
+    "migration_s": 0.0,
+    "total_s": 271.2822978969601,
+    "replans": 0,
+    "skipped": 0,
+    "ranks_moved": 0
+  },
+  {
+    "migration_s_per_rank": 0.01,
+    "variant": "once",
+    "comm_s": 242.43506861397339,
+    "migration_s": 0.56,
+    "total_s": 242.9950686139734,
+    "replans": 1,
+    "skipped": 0,
+    "ranks_moved": 56
+  },
+  {
+    "migration_s_per_rank": 0.01,
+    "variant": "gape",
+    "comm_s": 144.57004971349338,
+    "migration_s": 1.92,
+    "total_s": 146.49004971349336,
+    "replans": 6,
+    "skipped": 32,
+    "ranks_moved": 192
+  },
+  {
+    "migration_s_per_rank": 0.01,
+    "variant": "gape, no cost gate",
+    "comm_s": 153.02088545621334,
+    "migration_s": 1.92,
+    "total_s": 154.94088545621332,
+    "replans": 7,
+    "skipped": 0,
+    "ranks_moved": 192
+  },
+  {
+    "migration_s_per_rank": 0.01,
+    "variant": "gape, topology-oblivious",
+    "comm_s": 147.1802437358933,
+    "migration_s": 1.92,
+    "total_s": 149.1002437358933,
+    "replans": 4,
+    "skipped": 82,
+    "ranks_moved": 192
+  },
+  {
+    "migration_s_per_rank": 0.1,
+    "variant": "block",
+    "comm_s": 271.2822978969601,
+    "migration_s": 0.0,
+    "total_s": 271.2822978969601,
+    "replans": 0,
+    "skipped": 0,
+    "ranks_moved": 0
+  },
+  {
+    "migration_s_per_rank": 0.1,
+    "variant": "once",
+    "comm_s": 242.43506861397339,
+    "migration_s": 5.6000000000000005,
+    "total_s": 248.03506861397338,
+    "replans": 1,
+    "skipped": 0,
+    "ranks_moved": 56
+  },
+  {
+    "migration_s_per_rank": 0.1,
+    "variant": "gape",
+    "comm_s": 150.83366602069336,
+    "migration_s": 19.200000000000003,
+    "total_s": 170.03366602069337,
+    "replans": 5,
+    "skipped": 8,
+    "ranks_moved": 192
+  },
+  {
+    "migration_s_per_rank": 0.1,
+    "variant": "gape, no cost gate",
+    "comm_s": 153.02088545621334,
+    "migration_s": 19.200000000000003,
+    "total_s": 172.22088545621335,
+    "replans": 7,
+    "skipped": 0,
+    "ranks_moved": 192
+  },
+  {
+    "migration_s_per_rank": 0.1,
+    "variant": "gape, topology-oblivious",
+    "comm_s": 151.85041773909333,
+    "migration_s": 19.200000000000003,
+    "total_s": 171.05041773909335,
+    "replans": 4,
+    "skipped": 30,
+    "ranks_moved": 192
+  },
+  {
+    "migration_s_per_rank": 1.0,
+    "variant": "block",
+    "comm_s": 271.2822978969601,
+    "migration_s": 0.0,
+    "total_s": 271.2822978969601,
+    "replans": 0,
+    "skipped": 0,
+    "ranks_moved": 0
+  },
+  {
+    "migration_s_per_rank": 1.0,
+    "variant": "once",
+    "comm_s": 242.43506861397339,
+    "migration_s": 56.0,
+    "total_s": 298.4350686139734,
+    "replans": 1,
+    "skipped": 0,
+    "ranks_moved": 56
+  },
+  {
+    "migration_s_per_rank": 1.0,
+    "variant": "gape",
+    "comm_s": 271.2822978969601,
+    "migration_s": 0.0,
+    "total_s": 271.2822978969601,
+    "replans": 0,
+    "skipped": 115,
+    "ranks_moved": 0
+  },
+  {
+    "migration_s_per_rank": 1.0,
+    "variant": "gape, no cost gate",
+    "comm_s": 153.02088545621334,
+    "migration_s": 192.0,
+    "total_s": 345.02088545621336,
+    "replans": 7,
+    "skipped": 0,
+    "ranks_moved": 192
+  },
+  {
+    "migration_s_per_rank": 1.0,
+    "variant": "gape, topology-oblivious",
+    "comm_s": 271.2822978969601,
+    "migration_s": 0.0,
+    "total_s": 271.2822978969601,
+    "replans": 0,
+    "skipped": 115,
+    "ranks_moved": 0
+  },
+  {
+    "migration_s_per_rank": 5.0,
+    "variant": "block",
+    "comm_s": 271.2822978969601,
+    "migration_s": 0.0,
+    "total_s": 271.2822978969601,
+    "replans": 0,
+    "skipped": 0,
+    "ranks_moved": 0
+  },
+  {
+    "migration_s_per_rank": 5.0,
+    "variant": "once",
+    "comm_s": 242.43506861397339,
+    "migration_s": 280.0,
+    "total_s": 522.4350686139734,
+    "replans": 1,
+    "skipped": 0,
+    "ranks_moved": 56
+  },
+  {
+    "migration_s_per_rank": 5.0,
+    "variant": "gape",
+    "comm_s": 271.2822978969601,
+    "migration_s": 0.0,
+    "total_s": 271.2822978969601,
+    "replans": 0,
+    "skipped": 115,
+    "ranks_moved": 0
+  },
+  {
+    "migration_s_per_rank": 5.0,
+    "variant": "gape, no cost gate",
+    "comm_s": 153.02088545621334,
+    "migration_s": 960.0,
+    "total_s": 1113.0208854562134,
+    "replans": 7,
+    "skipped": 0,
+    "ranks_moved": 192
+  },
+  {
+    "migration_s_per_rank": 5.0,
+    "variant": "gape, topology-oblivious",
+    "comm_s": 271.2822978969601,
+    "migration_s": 0.0,
+    "total_s": 271.2822978969601,
+    "replans": 0,
+    "skipped": 115,
+    "ranks_moved": 0
+  }
+]

@@ -1,0 +1,3 @@
+kind,op,src,dst,bytes,step,t0,t1,root,members
+p2p,send,1,2,1000,0,0.0,0.001,-1,
+p2p,send,1,2,1000,1,0.0,0.001,-1,

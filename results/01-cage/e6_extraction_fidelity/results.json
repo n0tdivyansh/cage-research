@@ -1,0 +1,58 @@
+[
+  {
+    "every_k": 1,
+    "frac_steps": 1.0,
+    "kendall_tau": 1.0,
+    "top10_jaccard": 1.0,
+    "community_nmi": 1.0,
+    "placement_quality": 1.0
+  },
+  {
+    "every_k": 2,
+    "frac_steps": 0.5,
+    "kendall_tau": 0.9920634920634921,
+    "top10_jaccard": 1.0,
+    "community_nmi": 1.0,
+    "placement_quality": 1.0
+  },
+  {
+    "every_k": 5,
+    "frac_steps": 0.2,
+    "kendall_tau": 0.9950396825396826,
+    "top10_jaccard": 1.0,
+    "community_nmi": 1.0,
+    "placement_quality": 1.0
+  },
+  {
+    "every_k": 10,
+    "frac_steps": 0.1,
+    "kendall_tau": 0.9871031746031746,
+    "top10_jaccard": 0.8181818181818182,
+    "community_nmi": 1.0,
+    "placement_quality": 1.0
+  },
+  {
+    "every_k": 20,
+    "frac_steps": 0.05,
+    "kendall_tau": 0.9781746031746031,
+    "top10_jaccard": 0.8181818181818182,
+    "community_nmi": 1.0,
+    "placement_quality": 1.0
+  },
+  {
+    "every_k": 50,
+    "frac_steps": 0.02,
+    "kendall_tau": 0.9573412698412698,
+    "top10_jaccard": 0.8181818181818182,
+    "community_nmi": 1.0,
+    "placement_quality": 1.0
+  },
+  {
+    "every_k": 100,
+    "frac_steps": 0.01,
+    "kendall_tau": 0.9454365079365078,
+    "top10_jaccard": 0.8181818181818182,
+    "community_nmi": 1.0,
+    "placement_quality": 1.0
+  }
+]

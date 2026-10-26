@@ -1,0 +1,122 @@
+[
+  {
+    "workload": "DP ring",
+    "ranks": 64,
+    "density": 0.031746031746031744,
+    "gini": 0.0,
+    "top20_share": 0.203125,
+    "max/median": 1.0,
+    "hotspots": 0,
+    "Q": 0.73974609375,
+    "z": -1.2034758023660745,
+    "H2_holds(top20>=0.7)": false
+  },
+  {
+    "workload": "DP hier. leader",
+    "ranks": 64,
+    "density": 0.031746031746031744,
+    "gini": 0.09722222222222232,
+    "top20_share": 0.25396825396825395,
+    "max/median": 1.375,
+    "hotspots": 0,
+    "Q": 0.7542359536407155,
+    "z": 0.021107991517044126,
+    "H2_holds(top20>=0.7)": false
+  },
+  {
+    "workload": "DP hier. rail",
+    "ranks": 64,
+    "density": 0.06349206349206349,
+    "gini": 0.0,
+    "top20_share": 0.203125,
+    "max/median": 1.0,
+    "hotspots": 0,
+    "Q": 0.7638888888888888,
+    "z": 7.075772237240936,
+    "H2_holds(top20>=0.7)": false
+  },
+  {
+    "workload": "Megatron 8\u00b74\u00b72",
+    "ranks": 64,
+    "density": 0.07142857142857142,
+    "gini": 0.0005279831045408301,
+    "top20_share": 0.20333949313621963,
+    "max/median": 1.0010559662090812,
+    "hotspots": 0,
+    "Q": 0.8211455839537739,
+    "z": 9.891778103367992,
+    "H2_holds(top20>=0.7)": false
+  },
+  {
+    "workload": "MoE zipf 0",
+    "ranks": 64,
+    "density": 1.0,
+    "gini": 0.005826966710259729,
+    "top20_share": 0.2060711386297147,
+    "max/median": 1.021180328158429,
+    "hotspots": 0,
+    "Q": 0.22660153137449102,
+    "z": 2.052150096834938,
+    "H2_holds(top20>=0.7)": false
+  },
+  {
+    "workload": "MoE zipf 1.0",
+    "ranks": 64,
+    "density": 1.0,
+    "gini": 0.18874899897914155,
+    "top20_share": 0.3464052980718199,
+    "max/median": 5.998322071343986,
+    "hotspots": 6,
+    "Q": 0.22371592309083987,
+    "z": -0.2869417158063226,
+    "H2_holds(top20>=0.7)": false
+  },
+  {
+    "workload": "MoE zipf 1.5",
+    "ranks": 64,
+    "density": 1.0,
+    "gini": 0.2729799634562837,
+    "top20_share": 0.42439856053716757,
+    "max/median": 12.602497923550889,
+    "hotspots": 11,
+    "Q": 0.2160882571408858,
+    "z": -4.472347637466149,
+    "H2_holds(top20>=0.7)": false
+  },
+  {
+    "workload": "MoE zipf 1 aff 0.6",
+    "ranks": 64,
+    "density": 1.0,
+    "gini": 0.15443572641490633,
+    "top20_share": 0.3180502208907152,
+    "max/median": 3.974081989574148,
+    "hotspots": 6,
+    "Q": 0.27899081547177396,
+    "z": 2.4238241988633082,
+    "H2_holds(top20>=0.7)": false
+  },
+  {
+    "workload": "Stencil 2D 8x8",
+    "ranks": 64,
+    "density": 0.05555555555555555,
+    "gini": 0.08705357142857151,
+    "top20_share": 0.23214285714285715,
+    "max/median": 1.0,
+    "hotspots": 0,
+    "Q": 0.5936304209183674,
+    "z": 7.30795702181343,
+    "H2_holds(top20>=0.7)": false
+  },
+  {
+    "workload": "Stencil 3D 4x4x4",
+    "ranks": 64,
+    "density": 0.07142857142857142,
+    "gini": 0.10416666666666663,
+    "top20_share": 0.2534722222222222,
+    "max/median": 1.3333333333333333,
+    "hotspots": 0,
+    "Q": 0.5381944444444444,
+    "z": 6.027312050432294,
+    "H2_holds(top20>=0.7)": false
+  }
+]

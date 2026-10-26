@@ -1,0 +1,5 @@
+kind,op,src,dst,bytes,step,t0,t1,root,members
+p2p,send,0,1,1000,0,0.0,0.001,-1,
+coll,allreduce,0,-1,4096,0,0.0,0.002,-1,0;1;2;3
+p2p,send,0,1,1000,1,0.0,0.001,-1,
+coll,allreduce,0,-1,4096,1,0.0,0.002,-1,0;1;2;3

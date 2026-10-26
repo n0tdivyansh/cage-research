@@ -1,0 +1,362 @@
+[
+  {
+    "workload": "MoE aff 0.6, 128 ranks (pinned)",
+    "oversub": 1,
+    "strategy": "block",
+    "cross_leaf_frac": 0.7818344422100386,
+    "cross_host_bytes": 1030684475392.0,
+    "est_time_s": 3.04818946048,
+    "time_vs_block": 1.0,
+    "uplink_bound": false
+  },
+  {
+    "workload": "MoE aff 0.6, 128 ranks (pinned)",
+    "oversub": 1,
+    "strategy": "flat",
+    "cross_leaf_frac": 0.5463686431589279,
+    "cross_host_bytes": 741158158336.0,
+    "est_time_s": 1.5185936384,
+    "time_vs_block": 0.49819529202127294,
+    "uplink_bound": false
+  },
+  {
+    "workload": "MoE aff 0.6, 128 ranks (pinned)",
+    "oversub": 1,
+    "strategy": "hierarchical",
+    "cross_leaf_frac": 0.312531300943645,
+    "cross_host_bytes": 741158158336.0,
+    "est_time_s": 1.5185936384,
+    "time_vs_block": 0.49819529202127294,
+    "uplink_bound": false
+  },
+  {
+    "workload": "MoE aff 0.6, 128 ranks (pinned)",
+    "oversub": 1,
+    "strategy": "top_down",
+    "cross_leaf_frac": 0.312531300943645,
+    "cross_host_bytes": 741148524544.0,
+    "est_time_s": 1.5375861896533332,
+    "time_vs_block": 0.504426056709483,
+    "uplink_bound": false
+  },
+  {
+    "workload": "MoE aff 0.6, 128 ranks (pinned)",
+    "oversub": 2,
+    "strategy": "block",
+    "cross_leaf_frac": 0.7818344422100386,
+    "cross_host_bytes": 1030684475392.0,
+    "est_time_s": 3.04818946048,
+    "time_vs_block": 1.0,
+    "uplink_bound": false
+  },
+  {
+    "workload": "MoE aff 0.6, 128 ranks (pinned)",
+    "oversub": 2,
+    "strategy": "flat",
+    "cross_leaf_frac": 0.5463686431589279,
+    "cross_host_bytes": 741158158336.0,
+    "est_time_s": 1.8438461849599999,
+    "time_vs_block": 0.6048988125133299,
+    "uplink_bound": true
+  },
+  {
+    "workload": "MoE aff 0.6, 128 ranks (pinned)",
+    "oversub": 2,
+    "strategy": "hierarchical",
+    "cross_leaf_frac": 0.312531300943645,
+    "cross_host_bytes": 741158158336.0,
+    "est_time_s": 1.5185936384,
+    "time_vs_block": 0.49819529202127294,
+    "uplink_bound": false
+  },
+  {
+    "workload": "MoE aff 0.6, 128 ranks (pinned)",
+    "oversub": 2,
+    "strategy": "top_down",
+    "cross_leaf_frac": 0.312531300943645,
+    "cross_host_bytes": 741148524544.0,
+    "est_time_s": 1.5375861896533332,
+    "time_vs_block": 0.504426056709483,
+    "uplink_bound": false
+  },
+  {
+    "workload": "MoE aff 0.6, 128 ranks (pinned)",
+    "oversub": 4,
+    "strategy": "block",
+    "cross_leaf_frac": 0.7818344422100386,
+    "cross_host_bytes": 1030684475392.0,
+    "est_time_s": 4.85589909504,
+    "time_vs_block": 1.0,
+    "uplink_bound": true
+  },
+  {
+    "workload": "MoE aff 0.6, 128 ranks (pinned)",
+    "oversub": 4,
+    "strategy": "flat",
+    "cross_leaf_frac": 0.5463686431589279,
+    "cross_host_bytes": 741158158336.0,
+    "est_time_s": 3.57156978688,
+    "time_vs_block": 0.7355115328751657,
+    "uplink_bound": true
+  },
+  {
+    "workload": "MoE aff 0.6, 128 ranks (pinned)",
+    "oversub": 4,
+    "strategy": "hierarchical",
+    "cross_leaf_frac": 0.312531300943645,
+    "cross_host_bytes": 741158158336.0,
+    "est_time_s": 1.9322182041599998,
+    "time_vs_block": 0.3979115229419905,
+    "uplink_bound": true
+  },
+  {
+    "workload": "MoE aff 0.6, 128 ranks (pinned)",
+    "oversub": 4,
+    "strategy": "top_down",
+    "cross_leaf_frac": 0.312531300943645,
+    "cross_host_bytes": 741148524544.0,
+    "est_time_s": 1.9347153442133331,
+    "time_vs_block": 0.3984257716947877,
+    "uplink_bound": true
+  },
+  {
+    "workload": "Stencil 3D 8x4x4 (fixed)",
+    "oversub": 1,
+    "strategy": "block",
+    "cross_leaf_frac": 0.15789473684210525,
+    "cross_host_bytes": 1152000000.0,
+    "est_time_s": 0.0018666666666666666,
+    "time_vs_block": 1.0,
+    "uplink_bound": false
+  },
+  {
+    "workload": "Stencil 3D 8x4x4 (fixed)",
+    "oversub": 1,
+    "strategy": "flat",
+    "cross_leaf_frac": 0.15789473684210525,
+    "cross_host_bytes": 896000000.0,
+    "est_time_s": 0.0016,
+    "time_vs_block": 0.8571428571428572,
+    "uplink_bound": false
+  },
+  {
+    "workload": "Stencil 3D 8x4x4 (fixed)",
+    "oversub": 1,
+    "strategy": "hierarchical",
+    "cross_leaf_frac": 0.15789473684210525,
+    "cross_host_bytes": 896000000.0,
+    "est_time_s": 0.0016,
+    "time_vs_block": 0.8571428571428572,
+    "uplink_bound": false
+  },
+  {
+    "workload": "Stencil 3D 8x4x4 (fixed)",
+    "oversub": 1,
+    "strategy": "top_down",
+    "cross_leaf_frac": 0.15789473684210525,
+    "cross_host_bytes": 896000000.0,
+    "est_time_s": 0.0016,
+    "time_vs_block": 0.8571428571428572,
+    "uplink_bound": false
+  },
+  {
+    "workload": "Stencil 3D 8x4x4 (fixed)",
+    "oversub": 2,
+    "strategy": "block",
+    "cross_leaf_frac": 0.15789473684210525,
+    "cross_host_bytes": 1152000000.0,
+    "est_time_s": 0.0018666666666666666,
+    "time_vs_block": 1.0,
+    "uplink_bound": false
+  },
+  {
+    "workload": "Stencil 3D 8x4x4 (fixed)",
+    "oversub": 2,
+    "strategy": "flat",
+    "cross_leaf_frac": 0.15789473684210525,
+    "cross_host_bytes": 896000000.0,
+    "est_time_s": 0.0016,
+    "time_vs_block": 0.8571428571428572,
+    "uplink_bound": false
+  },
+  {
+    "workload": "Stencil 3D 8x4x4 (fixed)",
+    "oversub": 2,
+    "strategy": "hierarchical",
+    "cross_leaf_frac": 0.15789473684210525,
+    "cross_host_bytes": 896000000.0,
+    "est_time_s": 0.0016,
+    "time_vs_block": 0.8571428571428572,
+    "uplink_bound": false
+  },
+  {
+    "workload": "Stencil 3D 8x4x4 (fixed)",
+    "oversub": 2,
+    "strategy": "top_down",
+    "cross_leaf_frac": 0.15789473684210525,
+    "cross_host_bytes": 896000000.0,
+    "est_time_s": 0.0016,
+    "time_vs_block": 0.8571428571428572,
+    "uplink_bound": false
+  },
+  {
+    "workload": "Stencil 3D 8x4x4 (fixed)",
+    "oversub": 4,
+    "strategy": "block",
+    "cross_leaf_frac": 0.15789473684210525,
+    "cross_host_bytes": 1152000000.0,
+    "est_time_s": 0.002826666666666667,
+    "time_vs_block": 1.0,
+    "uplink_bound": true
+  },
+  {
+    "workload": "Stencil 3D 8x4x4 (fixed)",
+    "oversub": 4,
+    "strategy": "flat",
+    "cross_leaf_frac": 0.15789473684210525,
+    "cross_host_bytes": 896000000.0,
+    "est_time_s": 0.00288,
+    "time_vs_block": 1.0188679245283019,
+    "uplink_bound": true
+  },
+  {
+    "workload": "Stencil 3D 8x4x4 (fixed)",
+    "oversub": 4,
+    "strategy": "hierarchical",
+    "cross_leaf_frac": 0.15789473684210525,
+    "cross_host_bytes": 896000000.0,
+    "est_time_s": 0.00288,
+    "time_vs_block": 1.0188679245283019,
+    "uplink_bound": true
+  },
+  {
+    "workload": "Stencil 3D 8x4x4 (fixed)",
+    "oversub": 4,
+    "strategy": "top_down",
+    "cross_leaf_frac": 0.15789473684210525,
+    "cross_host_bytes": 896000000.0,
+    "est_time_s": 0.0022400000000000002,
+    "time_vs_block": 0.7924528301886793,
+    "uplink_bound": true
+  },
+  {
+    "workload": "Megatron 8\u00b74\u00b74, scrambled (fixed)",
+    "oversub": 1,
+    "strategy": "block",
+    "cross_leaf_frac": 0.7385105561277034,
+    "cross_host_bytes": 3949625081856.0,
+    "est_time_s": 5.315469421226667,
+    "time_vs_block": 1.0,
+    "uplink_bound": false
+  },
+  {
+    "workload": "Megatron 8\u00b74\u00b74, scrambled (fixed)",
+    "oversub": 1,
+    "strategy": "flat",
+    "cross_leaf_frac": 0.057672502574665295,
+    "cross_host_bytes": 322122547200.0,
+    "est_time_s": 1.2097491217066667,
+    "time_vs_block": 0.22759027017927783,
+    "uplink_bound": false
+  },
+  {
+    "workload": "Megatron 8\u00b74\u00b74, scrambled (fixed)",
+    "oversub": 1,
+    "strategy": "hierarchical",
+    "cross_leaf_frac": 0.003089598352214212,
+    "cross_host_bytes": 322122547200.0,
+    "est_time_s": 1.2097491217066667,
+    "time_vs_block": 0.22759027017927783,
+    "uplink_bound": false
+  },
+  {
+    "workload": "Megatron 8\u00b74\u00b74, scrambled (fixed)",
+    "oversub": 1,
+    "strategy": "top_down",
+    "cross_leaf_frac": 0.003089598352214212,
+    "cross_host_bytes": 322122547200.0,
+    "est_time_s": 1.2097491217066667,
+    "time_vs_block": 0.22759027017927783,
+    "uplink_bound": false
+  },
+  {
+    "workload": "Megatron 8\u00b74\u00b74, scrambled (fixed)",
+    "oversub": 2,
+    "strategy": "block",
+    "cross_leaf_frac": 0.7385105561277034,
+    "cross_host_bytes": 3949625081856.0,
+    "est_time_s": 8.567564970666668,
+    "time_vs_block": 1.0,
+    "uplink_bound": true
+  },
+  {
+    "workload": "Megatron 8\u00b74\u00b74, scrambled (fixed)",
+    "oversub": 2,
+    "strategy": "flat",
+    "cross_leaf_frac": 0.057672502574665295,
+    "cross_host_bytes": 322122547200.0,
+    "est_time_s": 1.5909274692266666,
+    "time_vs_block": 0.1856919060052219,
+    "uplink_bound": true
+  },
+  {
+    "workload": "Megatron 8\u00b74\u00b74, scrambled (fixed)",
+    "oversub": 2,
+    "strategy": "hierarchical",
+    "cross_leaf_frac": 0.003089598352214212,
+    "cross_host_bytes": 322122547200.0,
+    "est_time_s": 1.2097491217066667,
+    "time_vs_block": 0.14120104438642297,
+    "uplink_bound": false
+  },
+  {
+    "workload": "Megatron 8\u00b74\u00b74, scrambled (fixed)",
+    "oversub": 2,
+    "strategy": "top_down",
+    "cross_leaf_frac": 0.003089598352214212,
+    "cross_host_bytes": 322122547200.0,
+    "est_time_s": 1.2097491217066667,
+    "time_vs_block": 0.14120104438642297,
+    "uplink_bound": false
+  },
+  {
+    "workload": "Megatron 8\u00b74\u00b74, scrambled (fixed)",
+    "oversub": 4,
+    "strategy": "block",
+    "cross_leaf_frac": 0.7385105561277034,
+    "cross_host_bytes": 3949625081856.0,
+    "est_time_s": 17.034019252906667,
+    "time_vs_block": 1.0,
+    "uplink_bound": true
+  },
+  {
+    "workload": "Megatron 8\u00b74\u00b74, scrambled (fixed)",
+    "oversub": 4,
+    "strategy": "flat",
+    "cross_leaf_frac": 0.057672502574665295,
+    "cross_host_bytes": 322122547200.0,
+    "est_time_s": 2.3801277098666667,
+    "time_vs_block": 0.1397278983033041,
+    "uplink_bound": true
+  },
+  {
+    "workload": "Megatron 8\u00b74\u00b74, scrambled (fixed)",
+    "oversub": 4,
+    "strategy": "hierarchical",
+    "cross_leaf_frac": 0.003089598352214212,
+    "cross_host_bytes": 322122547200.0,
+    "est_time_s": 1.2097491217066667,
+    "time_vs_block": 0.07101959342333351,
+    "uplink_bound": false
+  },
+  {
+    "workload": "Megatron 8\u00b74\u00b74, scrambled (fixed)",
+    "oversub": 4,
+    "strategy": "top_down",
+    "cross_leaf_frac": 0.003089598352214212,
+    "cross_host_bytes": 322122547200.0,
+    "est_time_s": 1.2097491217066667,
+    "time_vs_block": 0.07101959342333351,
+    "uplink_bound": false
+  }
+]

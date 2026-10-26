@@ -1,0 +1,86 @@
+[
+  {
+    "workload": "MoE aff 0",
+    "anomaly": "volume x3 (tautological)",
+    "metric": "bytes strength",
+    "hit_rate@1": 0.0625,
+    "mean_rank_found": 4.0625
+  },
+  {
+    "workload": "MoE aff 0",
+    "anomaly": "NIC at 25% bandwidth",
+    "metric": "bytes strength",
+    "hit_rate@1": 0.125,
+    "mean_rank_found": NaN
+  },
+  {
+    "workload": "MoE aff 0",
+    "anomaly": "NIC at 25% bandwidth",
+    "metric": "time-weighted strength",
+    "hit_rate@1": 1.0,
+    "mean_rank_found": NaN
+  },
+  {
+    "workload": "MoE aff 0",
+    "anomaly": "NIC at 25% bandwidth",
+    "metric": "(check) slowed host is true bottleneck",
+    "hit_rate@1": 1.0,
+    "mean_rank_found": NaN
+  },
+  {
+    "workload": "Megatron 8\u00b74\u00b72",
+    "anomaly": "volume x3 (tautological)",
+    "metric": "bytes strength",
+    "hit_rate@1": 1.0,
+    "mean_rank_found": 1.0
+  },
+  {
+    "workload": "Megatron 8\u00b74\u00b72",
+    "anomaly": "NIC at 25% bandwidth",
+    "metric": "bytes strength",
+    "hit_rate@1": 0.125,
+    "mean_rank_found": NaN
+  },
+  {
+    "workload": "Megatron 8\u00b74\u00b72",
+    "anomaly": "NIC at 25% bandwidth",
+    "metric": "time-weighted strength",
+    "hit_rate@1": 1.0,
+    "mean_rank_found": NaN
+  },
+  {
+    "workload": "Megatron 8\u00b74\u00b72",
+    "anomaly": "NIC at 25% bandwidth",
+    "metric": "(check) slowed host is true bottleneck",
+    "hit_rate@1": 1.0,
+    "mean_rank_found": NaN
+  },
+  {
+    "workload": "Stencil 2D 8x8",
+    "anomaly": "volume x3 (tautological)",
+    "metric": "bytes strength",
+    "hit_rate@1": 0.96875,
+    "mean_rank_found": 2.09375
+  },
+  {
+    "workload": "Stencil 2D 8x8",
+    "anomaly": "NIC at 25% bandwidth",
+    "metric": "bytes strength",
+    "hit_rate@1": 0.125,
+    "mean_rank_found": NaN
+  },
+  {
+    "workload": "Stencil 2D 8x8",
+    "anomaly": "NIC at 25% bandwidth",
+    "metric": "time-weighted strength",
+    "hit_rate@1": 0.75,
+    "mean_rank_found": NaN
+  },
+  {
+    "workload": "Stencil 2D 8x8",
+    "anomaly": "NIC at 25% bandwidth",
+    "metric": "(check) slowed host is true bottleneck",
+    "hit_rate@1": 1.0,
+    "mean_rank_found": NaN
+  }
+]

@@ -1,0 +1,692 @@
+{
+  "cases": [
+    {
+      "workload": "DP ring",
+      "regime": "fixed",
+      "placement": "block",
+      "cross_host_frac": 0.125,
+      "cross_reduction_vs_block": 0.0,
+      "time_reduction_vs_block": 0.0,
+      "ranks_moved": 0
+    },
+    {
+      "workload": "DP ring",
+      "regime": "fixed",
+      "placement": "round_robin",
+      "cross_host_frac": 1.0,
+      "cross_reduction_vs_block": -7.0,
+      "time_reduction_vs_block": -2.6150627615062767,
+      "ranks_moved": 56
+    },
+    {
+      "workload": "DP ring",
+      "regime": "fixed",
+      "placement": "random",
+      "cross_host_frac": 0.890625,
+      "cross_reduction_vs_block": -6.125,
+      "time_reduction_vs_block": -2.6150627615062767,
+      "ranks_moved": 52
+    },
+    {
+      "workload": "DP ring",
+      "regime": "fixed",
+      "placement": "cage",
+      "cross_host_frac": 0.125,
+      "cross_reduction_vs_block": 0.0,
+      "time_reduction_vs_block": 0.0,
+      "ranks_moved": 24
+    },
+    {
+      "workload": "DP ring",
+      "regime": "nccl",
+      "placement": "block",
+      "cross_host_frac": 0.125,
+      "cross_reduction_vs_block": 0.0,
+      "time_reduction_vs_block": 0.0,
+      "ranks_moved": 0
+    },
+    {
+      "workload": "DP ring",
+      "regime": "nccl",
+      "placement": "round_robin",
+      "cross_host_frac": 0.125,
+      "cross_reduction_vs_block": 0.0,
+      "time_reduction_vs_block": 0.0,
+      "ranks_moved": 56
+    },
+    {
+      "workload": "DP ring",
+      "regime": "nccl",
+      "placement": "random",
+      "cross_host_frac": 0.125,
+      "cross_reduction_vs_block": 0.0,
+      "time_reduction_vs_block": 0.0,
+      "ranks_moved": 52
+    },
+    {
+      "workload": "DP ring",
+      "regime": "nccl",
+      "placement": "cage",
+      "cross_host_frac": 0.125,
+      "cross_reduction_vs_block": 0.0,
+      "time_reduction_vs_block": 0.0,
+      "ranks_moved": 0
+    },
+    {
+      "workload": "DP hier. leader",
+      "regime": "fixed",
+      "placement": "block",
+      "cross_host_frac": 0.1111111111111111,
+      "cross_reduction_vs_block": 0.0,
+      "time_reduction_vs_block": 0.0,
+      "ranks_moved": 0
+    },
+    {
+      "workload": "DP hier. leader",
+      "regime": "fixed",
+      "placement": "round_robin",
+      "cross_host_frac": 0.8888888888888888,
+      "cross_reduction_vs_block": -7.0,
+      "time_reduction_vs_block": -2.915500999143591,
+      "ranks_moved": 56
+    },
+    {
+      "workload": "DP hier. leader",
+      "regime": "fixed",
+      "placement": "random",
+      "cross_host_frac": 0.9047619047619048,
+      "cross_reduction_vs_block": -7.142857142857142,
+      "time_reduction_vs_block": -2.7938909506137595,
+      "ranks_moved": 52
+    },
+    {
+      "workload": "DP hier. leader",
+      "regime": "fixed",
+      "placement": "cage",
+      "cross_host_frac": 0.1111111111111111,
+      "cross_reduction_vs_block": 0.0,
+      "time_reduction_vs_block": 0.0,
+      "ranks_moved": 0
+    },
+    {
+      "workload": "DP hier. leader",
+      "regime": "nccl",
+      "placement": "block",
+      "cross_host_frac": 0.1111111111111111,
+      "cross_reduction_vs_block": 0.0,
+      "time_reduction_vs_block": 0.0,
+      "ranks_moved": 0
+    },
+    {
+      "workload": "DP hier. leader",
+      "regime": "nccl",
+      "placement": "round_robin",
+      "cross_host_frac": 0.8888888888888888,
+      "cross_reduction_vs_block": -7.0,
+      "time_reduction_vs_block": -2.918367346938776,
+      "ranks_moved": 56
+    },
+    {
+      "workload": "DP hier. leader",
+      "regime": "nccl",
+      "placement": "random",
+      "cross_host_frac": 0.9047619047619048,
+      "cross_reduction_vs_block": -7.142857142857142,
+      "time_reduction_vs_block": -2.795918367346939,
+      "ranks_moved": 52
+    },
+    {
+      "workload": "DP hier. leader",
+      "regime": "nccl",
+      "placement": "cage",
+      "cross_host_frac": 0.1111111111111111,
+      "cross_reduction_vs_block": 0.0,
+      "time_reduction_vs_block": 0.0,
+      "ranks_moved": 0
+    },
+    {
+      "workload": "Megatron 8\u00b74\u00b72",
+      "regime": "fixed",
+      "placement": "block",
+      "cross_host_frac": 0.05385427666314678,
+      "cross_reduction_vs_block": 0.0,
+      "time_reduction_vs_block": 0.0,
+      "ranks_moved": 0
+    },
+    {
+      "workload": "Megatron 8\u00b74\u00b72",
+      "regime": "fixed",
+      "placement": "round_robin",
+      "cross_host_frac": 0.9461457233368532,
+      "cross_reduction_vs_block": -16.568627450980394,
+      "time_reduction_vs_block": -3.0816315199753763,
+      "ranks_moved": 56
+    },
+    {
+      "workload": "Megatron 8\u00b74\u00b72",
+      "regime": "fixed",
+      "placement": "random",
+      "cross_host_frac": 0.8881995776135164,
+      "cross_reduction_vs_block": -15.492647058823529,
+      "time_reduction_vs_block": -3.2660697610091045,
+      "ranks_moved": 52
+    },
+    {
+      "workload": "Megatron 8\u00b74\u00b72",
+      "regime": "fixed",
+      "placement": "cage",
+      "cross_host_frac": 0.05385427666314678,
+      "cross_reduction_vs_block": 0.0,
+      "time_reduction_vs_block": 0.0,
+      "ranks_moved": 0
+    },
+    {
+      "workload": "Megatron 8\u00b74\u00b72",
+      "regime": "nccl",
+      "placement": "block",
+      "cross_host_frac": 0.05385427666314678,
+      "cross_reduction_vs_block": 0.0,
+      "time_reduction_vs_block": 0.0,
+      "ranks_moved": 0
+    },
+    {
+      "workload": "Megatron 8\u00b74\u00b72",
+      "regime": "nccl",
+      "placement": "round_robin",
+      "cross_host_frac": 0.9461457233368532,
+      "cross_reduction_vs_block": -16.568627450980394,
+      "time_reduction_vs_block": -3.4925496688741724,
+      "ranks_moved": 56
+    },
+    {
+      "workload": "Megatron 8\u00b74\u00b72",
+      "regime": "nccl",
+      "placement": "random",
+      "cross_host_frac": 0.7403643083421331,
+      "cross_reduction_vs_block": -12.747549019607844,
+      "time_reduction_vs_block": -3.7015728476821197,
+      "ranks_moved": 52
+    },
+    {
+      "workload": "Megatron 8\u00b74\u00b72",
+      "regime": "nccl",
+      "placement": "cage",
+      "cross_host_frac": 0.05385427666314678,
+      "cross_reduction_vs_block": 0.0,
+      "time_reduction_vs_block": 0.0,
+      "ranks_moved": 0
+    },
+    {
+      "workload": "Megatron, scrambled ranks",
+      "regime": "fixed",
+      "placement": "block",
+      "cross_host_frac": 0.8881995776135164,
+      "cross_reduction_vs_block": 0.0,
+      "time_reduction_vs_block": 0.0,
+      "ranks_moved": 0
+    },
+    {
+      "workload": "Megatron, scrambled ranks",
+      "regime": "fixed",
+      "placement": "round_robin",
+      "cross_host_frac": 0.8651663146779303,
+      "cross_reduction_vs_block": 0.025932530836677015,
+      "time_reduction_vs_block": -0.00042805704094295294,
+      "ranks_moved": 56
+    },
+    {
+      "workload": "Megatron, scrambled ranks",
+      "regime": "fixed",
+      "placement": "random",
+      "cross_host_frac": 0.8468189017951425,
+      "cross_reduction_vs_block": 0.046589389210878296,
+      "time_reduction_vs_block": 0.010537857463557176,
+      "ranks_moved": 52
+    },
+    {
+      "workload": "Megatron, scrambled ranks",
+      "regime": "fixed",
+      "placement": "cage",
+      "cross_host_frac": 0.05385427666314678,
+      "cross_reduction_vs_block": 0.9393669193045029,
+      "time_reduction_vs_block": 0.7655922064051156,
+      "ranks_moved": 48
+    },
+    {
+      "workload": "Megatron, scrambled ranks",
+      "regime": "nccl",
+      "placement": "block",
+      "cross_host_frac": 0.7403643083421331,
+      "cross_reduction_vs_block": 0.0,
+      "time_reduction_vs_block": 0.0,
+      "ranks_moved": 0
+    },
+    {
+      "workload": "Megatron, scrambled ranks",
+      "regime": "nccl",
+      "placement": "round_robin",
+      "cross_host_frac": 0.6581969376979937,
+      "cross_reduction_vs_block": 0.11098234979497235,
+      "time_reduction_vs_block": 0.19676027819350306,
+      "ranks_moved": 56
+    },
+    {
+      "workload": "Megatron, scrambled ranks",
+      "regime": "nccl",
+      "placement": "random",
+      "cross_host_frac": 0.6546330517423442,
+      "cross_reduction_vs_block": 0.1157960420752362,
+      "time_reduction_vs_block": 0.20767673210669968,
+      "ranks_moved": 52
+    },
+    {
+      "workload": "Megatron, scrambled ranks",
+      "regime": "nccl",
+      "placement": "cage",
+      "cross_host_frac": 0.05385427666314678,
+      "cross_reduction_vs_block": 0.9272597610982349,
+      "time_reduction_vs_block": 0.7873052205299762,
+      "ranks_moved": 48
+    },
+    {
+      "workload": "Stencil 2D 8x8",
+      "regime": "fixed",
+      "placement": "block",
+      "cross_host_frac": 0.5,
+      "cross_reduction_vs_block": 0.0,
+      "time_reduction_vs_block": 0.0,
+      "ranks_moved": 0
+    },
+    {
+      "workload": "Stencil 2D 8x8",
+      "regime": "fixed",
+      "placement": "round_robin",
+      "cross_host_frac": 0.5,
+      "cross_reduction_vs_block": 0.0,
+      "time_reduction_vs_block": 0.0,
+      "ranks_moved": 56
+    },
+    {
+      "workload": "Stencil 2D 8x8",
+      "regime": "fixed",
+      "placement": "random",
+      "cross_host_frac": 0.8660714285714286,
+      "cross_reduction_vs_block": -0.7321428571428572,
+      "time_reduction_vs_block": -0.4422680412371134,
+      "ranks_moved": 52
+    },
+    {
+      "workload": "Stencil 2D 8x8",
+      "regime": "fixed",
+      "placement": "cage",
+      "cross_host_frac": 0.2857142857142857,
+      "cross_reduction_vs_block": 0.4285714285714286,
+      "time_reduction_vs_block": 0.24742268041237114,
+      "ranks_moved": 40
+    },
+    {
+      "workload": "Stencil 2D 8x8",
+      "regime": "nccl",
+      "placement": "block",
+      "cross_host_frac": 0.5,
+      "cross_reduction_vs_block": 0.0,
+      "time_reduction_vs_block": 0.0,
+      "ranks_moved": 0
+    },
+    {
+      "workload": "Stencil 2D 8x8",
+      "regime": "nccl",
+      "placement": "round_robin",
+      "cross_host_frac": 0.5,
+      "cross_reduction_vs_block": 0.0,
+      "time_reduction_vs_block": 0.0,
+      "ranks_moved": 56
+    },
+    {
+      "workload": "Stencil 2D 8x8",
+      "regime": "nccl",
+      "placement": "random",
+      "cross_host_frac": 0.8660714285714286,
+      "cross_reduction_vs_block": -0.7321428571428572,
+      "time_reduction_vs_block": -0.49090909090909096,
+      "ranks_moved": 52
+    },
+    {
+      "workload": "Stencil 2D 8x8",
+      "regime": "nccl",
+      "placement": "cage",
+      "cross_host_frac": 0.2857142857142857,
+      "cross_reduction_vs_block": 0.4285714285714286,
+      "time_reduction_vs_block": 0.2727272727272727,
+      "ranks_moved": 40
+    },
+    {
+      "workload": "Stencil 3D 4x4x4",
+      "regime": "fixed",
+      "placement": "block",
+      "cross_host_frac": 0.4444444444444444,
+      "cross_reduction_vs_block": 0.0,
+      "time_reduction_vs_block": 0.0,
+      "ranks_moved": 0
+    },
+    {
+      "workload": "Stencil 3D 4x4x4",
+      "regime": "fixed",
+      "placement": "round_robin",
+      "cross_host_frac": 0.6666666666666666,
+      "cross_reduction_vs_block": -0.5,
+      "time_reduction_vs_block": -0.25806451612903225,
+      "ranks_moved": 56
+    },
+    {
+      "workload": "Stencil 3D 4x4x4",
+      "regime": "fixed",
+      "placement": "random",
+      "cross_host_frac": 0.8819444444444444,
+      "cross_reduction_vs_block": -0.984375,
+      "time_reduction_vs_block": -0.4927419354838709,
+      "ranks_moved": 52
+    },
+    {
+      "workload": "Stencil 3D 4x4x4",
+      "regime": "fixed",
+      "placement": "cage",
+      "cross_host_frac": 0.3333333333333333,
+      "cross_reduction_vs_block": 0.25,
+      "time_reduction_vs_block": 0.2935483870967741,
+      "ranks_moved": 32
+    },
+    {
+      "workload": "Stencil 3D 4x4x4",
+      "regime": "nccl",
+      "placement": "block",
+      "cross_host_frac": 0.4444444444444444,
+      "cross_reduction_vs_block": 0.0,
+      "time_reduction_vs_block": 0.0,
+      "ranks_moved": 0
+    },
+    {
+      "workload": "Stencil 3D 4x4x4",
+      "regime": "nccl",
+      "placement": "round_robin",
+      "cross_host_frac": 0.6666666666666666,
+      "cross_reduction_vs_block": -0.5,
+      "time_reduction_vs_block": -0.2857142857142856,
+      "ranks_moved": 56
+    },
+    {
+      "workload": "Stencil 3D 4x4x4",
+      "regime": "nccl",
+      "placement": "random",
+      "cross_host_frac": 0.8819444444444444,
+      "cross_reduction_vs_block": -0.984375,
+      "time_reduction_vs_block": -0.5428571428571429,
+      "ranks_moved": 52
+    },
+    {
+      "workload": "Stencil 3D 4x4x4",
+      "regime": "nccl",
+      "placement": "cage",
+      "cross_host_frac": 0.3333333333333333,
+      "cross_reduction_vs_block": 0.25,
+      "time_reduction_vs_block": 0.31428571428571417,
+      "ranks_moved": 32
+    },
+    {
+      "workload": "MoE aff 0",
+      "regime": "fixed",
+      "placement": "block",
+      "cross_host_frac": 0.6462092842453205,
+      "cross_reduction_vs_block": 0.0,
+      "time_reduction_vs_block": 0.0,
+      "ranks_moved": 0
+    },
+    {
+      "workload": "MoE aff 0",
+      "regime": "fixed",
+      "placement": "round_robin",
+      "cross_host_frac": 0.9242470654200183,
+      "cross_reduction_vs_block": -0.43025965109648023,
+      "time_reduction_vs_block": -0.09095130707498411,
+      "ranks_moved": 56
+    },
+    {
+      "workload": "MoE aff 0",
+      "regime": "fixed",
+      "placement": "random",
+      "cross_host_frac": 0.8894694240074835,
+      "cross_reduction_vs_block": -0.37644172823399735,
+      "time_reduction_vs_block": -0.06068126158996612,
+      "ranks_moved": 52
+    },
+    {
+      "workload": "MoE aff 0",
+      "regime": "fixed",
+      "placement": "cage",
+      "cross_host_frac": 0.6462092842453205,
+      "cross_reduction_vs_block": 0.0,
+      "time_reduction_vs_block": 0.0,
+      "ranks_moved": 0
+    },
+    {
+      "workload": "MoE aff 0",
+      "regime": "nccl",
+      "placement": "block",
+      "cross_host_frac": 0.6462092842453205,
+      "cross_reduction_vs_block": 0.0,
+      "time_reduction_vs_block": 0.0,
+      "ranks_moved": 0
+    },
+    {
+      "workload": "MoE aff 0",
+      "regime": "nccl",
+      "placement": "round_robin",
+      "cross_host_frac": 0.6462420873096989,
+      "cross_reduction_vs_block": -5.076229199763027e-05,
+      "time_reduction_vs_block": 0.11680471053489982,
+      "ranks_moved": 56
+    },
+    {
+      "workload": "MoE aff 0",
+      "regime": "nccl",
+      "placement": "random",
+      "cross_host_frac": 0.646215068160954,
+      "cross_reduction_vs_block": -8.950530075102492e-06,
+      "time_reduction_vs_block": 0.11745448476904263,
+      "ranks_moved": 52
+    },
+    {
+      "workload": "MoE aff 0",
+      "regime": "nccl",
+      "placement": "cage",
+      "cross_host_frac": 0.6452765039083739,
+      "cross_reduction_vs_block": 0.001443464771689329,
+      "time_reduction_vs_block": 0.14943659619007588,
+      "ranks_moved": 46
+    },
+    {
+      "workload": "MoE aff 0.6",
+      "regime": "fixed",
+      "placement": "block",
+      "cross_host_frac": 0.6769617525147829,
+      "cross_reduction_vs_block": 0.0,
+      "time_reduction_vs_block": 0.0,
+      "ranks_moved": 0
+    },
+    {
+      "workload": "MoE aff 0.6",
+      "regime": "fixed",
+      "placement": "round_robin",
+      "cross_host_frac": 0.5871036882082937,
+      "cross_reduction_vs_block": 0.13273728386084394,
+      "time_reduction_vs_block": 0.24946304863227742,
+      "ranks_moved": 56
+    },
+    {
+      "workload": "MoE aff 0.6",
+      "regime": "fixed",
+      "placement": "random",
+      "cross_host_frac": 0.8942540748861662,
+      "cross_reduction_vs_block": -0.320981682590167,
+      "time_reduction_vs_block": -0.06763776462539428,
+      "ranks_moved": 52
+    },
+    {
+      "workload": "MoE aff 0.6",
+      "regime": "fixed",
+      "placement": "cage",
+      "cross_host_frac": 0.5871036882082937,
+      "cross_reduction_vs_block": 0.13273728386084394,
+      "time_reduction_vs_block": 0.24946304863227742,
+      "ranks_moved": 56
+    },
+    {
+      "workload": "MoE aff 0.6",
+      "regime": "nccl",
+      "placement": "block",
+      "cross_host_frac": 0.6769617525147829,
+      "cross_reduction_vs_block": 0.0,
+      "time_reduction_vs_block": 0.0,
+      "ranks_moved": 0
+    },
+    {
+      "workload": "MoE aff 0.6",
+      "regime": "nccl",
+      "placement": "round_robin",
+      "cross_host_frac": 0.29582742134751294,
+      "cross_reduction_vs_block": 0.5630071857847643,
+      "time_reduction_vs_block": 0.48842277652711663,
+      "ranks_moved": 56
+    },
+    {
+      "workload": "MoE aff 0.6",
+      "regime": "nccl",
+      "placement": "random",
+      "cross_host_frac": 0.6393873413829829,
+      "cross_reduction_vs_block": 0.055504481593263266,
+      "time_reduction_vs_block": 0.13608250421162105,
+      "ranks_moved": 52
+    },
+    {
+      "workload": "MoE aff 0.6",
+      "regime": "nccl",
+      "placement": "cage",
+      "cross_host_frac": 0.29582742134751294,
+      "cross_reduction_vs_block": 0.5630071857847643,
+      "time_reduction_vs_block": 0.48842277652711663,
+      "ranks_moved": 56
+    }
+  ],
+  "moe_affinity_sweep": [
+    {
+      "affinity": 0.0,
+      "layout": "interleaved",
+      "workload": "MoE aff 0.0 interleaved",
+      "regime": "nccl",
+      "placement": "cage",
+      "cross_host_frac": 0.6452765039083739,
+      "cross_reduction_vs_block": 0.001443464771689329,
+      "time_reduction_vs_block": 0.14943659619007588,
+      "ranks_moved": 46
+    },
+    {
+      "affinity": 0.0,
+      "layout": "block",
+      "workload": "MoE aff 0.0 block",
+      "regime": "nccl",
+      "placement": "cage",
+      "cross_host_frac": 0.6452765039083739,
+      "cross_reduction_vs_block": 0.001443464771689329,
+      "time_reduction_vs_block": 0.14943659619007588,
+      "ranks_moved": 46
+    },
+    {
+      "affinity": 0.2,
+      "layout": "interleaved",
+      "workload": "MoE aff 0.2 interleaved",
+      "regime": "nccl",
+      "placement": "cage",
+      "cross_host_frac": 0.5329667355652519,
+      "cross_reduction_vs_block": 0.1875666111542481,
+      "time_reduction_vs_block": 0.23578958904729552,
+      "ranks_moved": 56
+    },
+    {
+      "affinity": 0.2,
+      "layout": "block",
+      "workload": "MoE aff 0.2 block",
+      "regime": "nccl",
+      "placement": "cage",
+      "cross_host_frac": 0.532735921994507,
+      "cross_reduction_vs_block": 0.0,
+      "time_reduction_vs_block": 0.0,
+      "ranks_moved": 0
+    },
+    {
+      "affinity": 0.4,
+      "layout": "interleaved",
+      "workload": "MoE aff 0.4 interleaved",
+      "regime": "nccl",
+      "placement": "cage",
+      "cross_host_frac": 0.4162431830336746,
+      "cross_reduction_vs_block": 0.3753030652023721,
+      "time_reduction_vs_block": 0.35184649587772054,
+      "ranks_moved": 56
+    },
+    {
+      "affinity": 0.4,
+      "layout": "block",
+      "workload": "MoE aff 0.4 block",
+      "regime": "nccl",
+      "placement": "cage",
+      "cross_host_frac": 0.4163968054365261,
+      "cross_reduction_vs_block": 0.0,
+      "time_reduction_vs_block": 0.0,
+      "ranks_moved": 0
+    },
+    {
+      "affinity": 0.6,
+      "layout": "interleaved",
+      "workload": "MoE aff 0.6 interleaved",
+      "regime": "nccl",
+      "placement": "cage",
+      "cross_host_frac": 0.29582742134751294,
+      "cross_reduction_vs_block": 0.5630071857847643,
+      "time_reduction_vs_block": 0.48842277652711663,
+      "ranks_moved": 56
+    },
+    {
+      "affinity": 0.6,
+      "layout": "block",
+      "workload": "MoE aff 0.6 block",
+      "regime": "nccl",
+      "placement": "cage",
+      "cross_host_frac": 0.2957645554291803,
+      "cross_reduction_vs_block": 0.0,
+      "time_reduction_vs_block": 0.0,
+      "ranks_moved": 0
+    },
+    {
+      "affinity": 0.8,
+      "layout": "interleaved",
+      "workload": "MoE aff 0.8 interleaved",
+      "regime": "nccl",
+      "placement": "cage",
+      "cross_host_frac": 0.17151262933028444,
+      "cross_reduction_vs_block": 0.7506582372086744,
+      "time_reduction_vs_block": 0.6288715040805148,
+      "ranks_moved": 56
+    },
+    {
+      "affinity": 0.8,
+      "layout": "block",
+      "workload": "MoE aff 0.8 block",
+      "regime": "nccl",
+      "placement": "cage",
+      "cross_host_frac": 0.1714414507130792,
+      "cross_reduction_vs_block": 0.0,
+      "time_reduction_vs_block": 0.0,
+      "ranks_moved": 0
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.venv/
+tools/pmpi_shim/libcagepmpi.so
+tools/pmpi_shim/selftest
+tools/pmpi_shim/selftest_out/
+results/real/
+# results/ from synthetic runs IS committed so findings are reproducible and diffable
